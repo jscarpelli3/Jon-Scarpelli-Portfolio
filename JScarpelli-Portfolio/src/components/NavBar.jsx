@@ -8,7 +8,7 @@ const NavBar = () => {
         <h2>Jon Scarpelli</h2>
       </div>
       <div className="nav-links">
-        <h3><Link to='/'>Home</Link>| <a href="https://docs.google.com/document/d/1pNdg2NvJ7TlWuhiRaffaeeBwiSA4Brqs9DjviPDSYHo/edit?usp=sharing" target="blank">Resume</a> | <Link to=''>Contact</Link></h3>
+        <h3><Link to='/'>Home </Link>| <a href="https://docs.google.com/document/d/1aQ81_zmerbjSuLIKYvzh8fgONmQjI4K6ngtQvaX414Q/export?format=pdf" target="blank">Resume</a> | <Link to=''>Contact</Link></h3>
       </div>
 
     </div>

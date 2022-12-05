@@ -5,10 +5,10 @@ import Main from './components/Main'
 function App() {
   return (
     <div className="app">
-      <div className="nav-div">
+      <header className="nav">
          <NavBar />
-      </div>
-      <div className="main-div">
+      </header>
+      <div className="main">
         <Main />
       </div>
     </div>
