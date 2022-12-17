@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Project = ({ title, image, cap }) => {
+const Project = ({ title, image, cap, thumb }) => {
   return (
     <div className="project-card" >
-      <h1>{title}</h1>
-      <img className="project-thumb" src={image} />
+      <h1 className="project-title">{title}</h1>
+      <a target="blank" href={thumb}>
+        <img className="project-thumb" src={image} />
+      </a>
       <p className="caption">{cap}</p>
     </div>
   )

@@ -4,7 +4,7 @@ import { Link, useNavigate, Routes, Route } from 'react-router-dom'
 const NavBar = () => {
   return (
     <div className="nav-div">
-      <div className="nav-name">
+      <div className="nav-name name">
         <h2>Jon Scarpelli</h2>
       </div>
       <div className="nav-links">
