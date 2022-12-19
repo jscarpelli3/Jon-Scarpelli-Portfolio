@@ -105,13 +105,13 @@ section {
   width: 3vh;
 }
 
-.git-ico {
+/* .git-ico {
   filter: invert(100%);
-}
+} */
 
-.lnk-ico {
+/* .lnk-ico {
   filter: grayscale(1) contrast(20);
-}
+} */
 
 .greeting {
   color: rgb(255, 255, 255);
@@ -300,4 +300,8 @@ a:hover {
 .credits {
   font-size: small;
   color: #000000;
+}
+
+.git-txt {
+  font-size: small;
 }

@@ -13,12 +13,12 @@ const Project = ({ title, image, cap, thumb, cap2, git, git2, git2Check }) => {
         <p className="caption">{cap2}</p>
         <div className="link-area">
           <div className="git-card">
-            <a href={git}>
+            <a className="git-txt" href={git}>
               <img className="icon" src={gitIcn} /><br />FrontEnd
             </a>
           </div>
           {git2Check ? <div className="git-card">
-            <a href={git2}>
+            <a className="git-txt" href={git2}>
               <img className="icon" src={gitIcn} /> <br />BackEnd
             </a>
           </div> : undefined}
