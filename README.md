@@ -1,31 +1,57 @@
-# Jon-Scarpelli-Portfolio
+# Getting Started
 
-Resume Link: (GoogleDoc) https://docs.google.com/document/d/1pNdg2NvJ7TlWuhiRaffaeeBwiSA4Brqs9DjviPDSYHo/edit?usp=sharing
+### Run `npx create-react-skel <project-name>`
 
-https://drive.google.com/uc?export=download&id=1pNdg2NvJ7TlWuhiRaffaeeBwiSA4Brqs9DjviPDSYHo
+When propted, respond with `y` + <kbd>return</kbd>.
+
+The starter command clones this repo and installs base dependencies.
+
+## More Info
+
+This is a stripped down version of the `npx create-react-app` command that we all know and love. `create-react-skel <project-name>` also includes some CSS boilerplate to zero out margin, padding, border, outline, list style, and text decoration, and sets box sizing to `border-box`. It also adds a `./src/components` directory with a `TestComponent.jsx` file.
+
+Unlike `npx create-react-app`, `.` is not a vaild directory name argument.
+
+## Next Steps
+
+`react-skel` removes the remote from the cloned repository. Run `git init` and `git remote add origin <remote-url>` to connect to your desired remote repository.
+
+Alternatively, you can click [here](https://github.com/austin-rt/create-react-skeleton/generate) to create a new repo using this same template.
+
+Find the npm package [here](https://www.npmjs.com/package/create-react-skel).
+
+## Available Scripts
+
+In the project directory, you can still run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run build`
+
+Still builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## To Contribute
+
+Please don't hesitate to submit PRs or raise any issues [here](https://github.com/austin-rt/create-react-skeleton/issues).
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-
-
-BACKGROUND
-  Photo by <a href="https://unsplash.com/@baumnico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nico Baum</a> on <a href="https://unsplash.com/s/photos/geometry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-2
-Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/s/photos/geometry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-3
-Photo by <a href="https://unsplash.com/@fandyus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">František G.</a> on <a href="https://unsplash.com/s/photos/texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-4
-Photo by <a href="https://unsplash.com/@juancarlosbcr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juan Carlos Becerra</a> on <a href="https://unsplash.com/s/photos/black-and-white-geometry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@marg_cs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Margarida CSilva</a> on <a href="https://unsplash.com/s/photos/black-and-white-geometry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@visaxslr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visax</a> on <a href="https://unsplash.com/s/photos/black-and-white-geometry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@truth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Satyawan Narinedhat</a> on <a href="https://unsplash.com/s/photos/chicago-black-and-white?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-  
-background design help
-https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20
+Email Icon
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a>
