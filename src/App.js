@@ -1,6 +1,7 @@
 import './index.css'
 import NavBar from './components/NavBar'
 import Main from './components/Main'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <div className="main">
         <Main />
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }

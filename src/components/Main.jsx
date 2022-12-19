@@ -19,9 +19,9 @@ const Main = () => {
     <div className="main-div">
       <section>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank"><img src={LkIn} className="icon" /></a>
-          <a href="mailto:scarpelli.jon@gmail.com" target="blank"><img src={email} className="icon" /></a>
-          <a href="https://github.com/jscarpelli3" target="blank"><img src={git} className="icon" /></a>
+          <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank"><img src={LkIn} className="icon lnk-ico" /></a>
+          <a href="mailto:scarpelli.jon@gmail.com" target="blank"><img src={email} className="icon main-ico" /></a>
+          <a href="https://github.com/jscarpelli3" target="blank"><img src={git} className="icon git-ico" /></a>
 
         </div>
         <div className="greeting">
@@ -56,8 +56,6 @@ const Main = () => {
           {/* </a> */}
         </div>
       </div>
-
-
     </div >
   )
 }

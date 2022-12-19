@@ -7,6 +7,8 @@ const Project = ({ title, image, cap, thumb }) => {
       <a target="blank" href={thumb}>
         <img className="project-thumb" src={image} />
       </a>
+      <button className="button">Git</button>
+      <button className="button">Live Site</button>
       <p className="caption">{cap}</p>
     </div>
   )

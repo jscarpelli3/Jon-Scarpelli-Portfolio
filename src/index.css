@@ -18,7 +18,7 @@ body {
   /* background-color: rgba(60, 99, 130, 1.0); */
   /* background-color: rgba(129, 236, 236, 1.0); */
   /* background: -webkit-linear-gradient(-70deg, #2c2c54 30%, rgba(0, 0, 0, 0) 30%), url('/Users/jscarpelli/ga_seir919/projects/Jon-Scarpelli-Portfolio/JScarpelli-Portfolio/src/images/nico-baum-xZroI5V_dxc-unsplash.jpg'); */
-  background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0.127) 30%), url('/Users/jscarpelli/ga_seir919/projects/Jon-Scarpelli-Portfolio/src/images/nico-baum-xZroI5V_dxc-unsplash.jpg');
+  background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0.127) 30%), url('./images/nico-baum-xZroI5V_dxc-unsplash.jpg');
   background-size: cover;
   background-position: 0 20%;
 }
@@ -103,6 +103,14 @@ section {
   align-self: center;
   height: 3vh;
   width: 3vh;
+}
+
+.git-ico {
+  filter: invert(100%);
+}
+
+.lnk-ico {
+  filter: grayscale(1) contrast(20);
 }
 
 .greeting {
@@ -190,7 +198,7 @@ section {
   /* border: 1px solid black; */
   margin: 2vw;
   width: 20vw;
-  height: 40vh;
+  height: 50vh;
   overflow: scroll
 }
 
@@ -208,6 +216,7 @@ section {
 .caption {
   margin-top: 2vh;
   width: 20vw;
+  padding: 0 3vw 0 3vw;
 }
 
 .name {
@@ -222,9 +231,46 @@ section {
 
 a:hover {
   opacity: 0.5;
+  /* filter: blur(2px); */
 }
 
 .project-title {
   font-weight: 200;
   margin-bottom: 1vh;
+}
+
+.footer {
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  /* justify-content: space-between; */
+  background-color: rgba(77, 77, 77, 0.849);
+  height: 200px;
+}
+
+.ft-icon {
+  margin: 0 .2vw 1vh .2vw;
+  align-self: right;
+  height: 3vh;
+  width: 3vh;
+}
+
+.ft-icons {
+  margin-bottom: 3vh;
+}
+
+.ft-name,
+.name {
+  margin-bottom: 2vh;
+}
+
+.credits {
+  font-size: small;
+  color: #000000;
+}
+
+.button {
+  display: inline-block;
+  border: none;
 }
