@@ -13,6 +13,9 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank"><img src={LkIn} className="ft-icon lnk-ico" /></a>
         <a href="mailto:scarpelli.jon@gmail.com" target="blank"><img src={email} className="ft-icon main-ico" /></a>
         <a href="https://github.com/jscarpelli3" target="blank"><img src={git} className="ft-icon git-ico" /></a>
+        <div className="res-foot">
+          <h3> <a href="https://docs.google.com/document/d/1aQ81_zmerbjSuLIKYvzh8fgONmQjI4K6ngtQvaX414Q/export?format=pdf" target="blank">Resume</a></h3>
+        </div>
       </div>
       <p className="credits">
         Background Photo by <a href="https://unsplash.com/@baumnico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nico Baum</a> on <a href="https://unsplash.com/s/photos/geometry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a><br />

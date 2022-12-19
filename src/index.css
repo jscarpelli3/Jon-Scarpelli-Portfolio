@@ -198,7 +198,7 @@ section {
   /* border: 1px solid black; */
   margin: 2vw 2vw 0 2vw;
   width: 20vw;
-  height: 54vh;
+  height: 60vh;
   overflow: scroll
 }
 
@@ -206,8 +206,29 @@ section {
   background-image: url('/Users/jscarpelli/ga_seir919/projects/Jon-Scarpelli-Portfolio/JScarpelli-Portfolio/src/images/TMT_scrn_a.png');
 } */
 
+.link-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.proj-details {
+  background-color: #00000067;
+
+}
+
+.git-card {
+  display: inline-block;
+  margin: 2vh 2vw 1vh 2vw;
+}
+
+
 .project-thumb {
   width: 100%;
+}
+
+.res-foot {
+  color: #000000;
 }
 
 .caption {
