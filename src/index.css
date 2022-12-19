@@ -204,11 +204,12 @@ section {
 .link-area {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .proj-details {
   width: 100%;
+  height: 1000px;
   background-color: #00000067;
 
 }
@@ -231,6 +232,7 @@ section {
   margin-top: 2vh;
   /* width: 20vw; */
   padding: 0 5% 0 5%;
+  font-size: medium;
 }
 
 .name {
@@ -245,8 +247,8 @@ section {
 
 a:hover {
   opacity: 0.5;
-  /* filter: blur(2px); */
 }
+
 
 .project-title {
   font-weight: 200;
@@ -257,8 +259,6 @@ a:hover {
   padding: 2vw;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: nowrap; */
-  /* justify-content: space-between; */
   background-color: rgba(77, 77, 77, 0.849);
   height: 200px;
 }
@@ -270,18 +270,19 @@ a:hover {
   width: 3vh;
 }
 
-.tech {
-  margin: 0 .2vw 1vh .2vw;
-  align-self: right;
-  height: 3vh;
-  width: 3vh;
+.tech-box {
+  background-color: rgba(77, 77, 77, 0);
+  width: 100%;
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  margin-top: .7vh;
+  margin-bottom: .7vh;
 }
 
-.tech-box {
-  background-color: rgba(77, 77, 77, 0.291);
-  width: 20vw;
-  margin-top: 0;
-  margin-left: 2vw;
+.t-icon {
+  height: 28px;
+  margin: 0 .4vw;
+  /* filter: grayscale(1) contrast(20); */
 }
 
 .ft-icons {
