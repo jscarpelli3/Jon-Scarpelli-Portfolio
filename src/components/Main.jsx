@@ -41,7 +41,7 @@ const Main = () => {
           <Project title={'ResRecs'} image={RRmain} cap={"A restaurant reccomendation app for small groups"} cap2={"ReactJS, MongoDB, JavaScript, HTML, CSS"} thumb={"https://resrecs.herokuapp.com"} git={"https://github.com/jscarpelli3/ResRecs"} git2Check={false} />
         </div>
         <div className="project">
-          <Project title={'RockDog Trivia!'} image={RDTmain} cap={"A competative music trivia app"} thumb={"https://rockdog-trivia.herokuapp.com"} cap2={"VueJS, PostgreSQL, JavaScript, HTML, CSS"} git={"https://github.com/jscarpelli3/musicial_pursuit_front"} gitB={"https://github.com/jscarpelli3/musical_pursuit_server"} git2Check={true} />
+          <Project title={'RockDog Trivia!'} image={RDTmain} cap={"A mobile-styled competative music trivia app"} thumb={"https://rockdog-trivia.herokuapp.com"} cap2={"VueJS, PostgreSQL, JavaScript, HTML, CSS"} git={"https://github.com/jscarpelli3/musicial_pursuit_front"} gitB={"https://github.com/jscarpelli3/musical_pursuit_server"} git2Check={true} />
         </div>
         <div>
           <Project title={'The Maze Tower'} image={tmtScreen} cap={"A maze adventure game in the style of 80's MS-DOS Freeware"} thumb={"https://the-maze-tower.surge.sh/"} cap2={"JavaScript, HTML, CSS"} git={"https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower"} git2Check={false} />
