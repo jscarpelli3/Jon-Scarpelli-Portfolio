@@ -182,6 +182,11 @@ section {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.p-title {
+  margin-top: 6vh;
+  font-size: 10vh;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -189,16 +194,11 @@ section {
   padding: 2vh 0 2vh 0;
   box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.428);
   background-color: #3c6382d2;
-  /* background-color: #4b6584; */
-  /* background-color: #747d8c; */
-  /* background-color: #57606f; */
-  /* background-color: #2f3542; */
-  /* background-color: #fa983a; */
   border-radius: 3px;
   /* border: 1px solid black; */
-  margin: 2vw;
+  margin: 2vw 2vw 0 2vw;
   width: 20vw;
-  height: 50vh;
+  height: 54vh;
   overflow: scroll
 }
 
@@ -207,9 +207,6 @@ section {
 } */
 
 .project-thumb {
-  /* width: 20vw; */
-  /* height: 26vh; */
-  /* box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.428); */
   width: 100%;
 }
 
@@ -256,6 +253,20 @@ a:hover {
   width: 3vh;
 }
 
+.tech {
+  margin: 0 .2vw 1vh .2vw;
+  align-self: right;
+  height: 3vh;
+  width: 3vh;
+}
+
+.tech-box {
+  background-color: rgba(77, 77, 77, 0.291);
+  width: 20vw;
+  margin-top: 0;
+  margin-left: 2vw;
+}
+
 .ft-icons {
   margin-bottom: 3vh;
 }
@@ -268,9 +279,4 @@ a:hover {
 .credits {
   font-size: small;
   color: #000000;
-}
-
-.button {
-  display: inline-block;
-  border: none;
 }

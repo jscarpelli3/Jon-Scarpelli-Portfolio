@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import Project from './Project'
 import ProfPic2 from '../images/prof_pic2.jpg'
 import tmtScreen from '../images/TMT_scrn_b.png'
@@ -34,26 +35,23 @@ const Main = () => {
           </div>
         </div>
       </section >
+      <p className="p-title">Projects</p>
       <div className="project-grid">
         <div className="project">
-          {/* <a target="blank" href="https://resrecs.herokuapp.com"> */}
-          <Project title={'ResRecs'} image={RRmain} cap={"A restaurant reccomendation app for small groups"} thumb={"https://resrecs.herokuapp.com"} />
-          {/* </a> */}
+          <Project title={'ResRecs'} image={RRmain} cap={"A restaurant reccomendation app for small groups"} cap2={"ReactJS, MongoDB, JavaScript, HTML, CSS"} thumb={"https://resrecs.herokuapp.com"} />
         </div>
         <div className="project">
-          {/* <a target="blank" href="https://rockdog-trivia.herokuapp.com"> */}
-          <Project title={'RockDog Trivia!'} image={RDTmain} cap={"A competative music trivia app"} thumb={"https://rockdog-trivia.herokuapp.com"} />
-          {/* </a> */}
+          <Project title={'RockDog Trivia!'} image={RDTmain} cap={"A competative music trivia app"} thumb={"https://rockdog-trivia.herokuapp.com"} cap2={"VueJS, PostgreSQL, JavaScript, HTML, CSS"} />
         </div>
         <div>
-          {/* <a target="blank" href="https://the-maze-tower.surge.sh/"> */}
-          <Project title={'The Maze Tower'} image={tmtScreen} cap={"A maze adventure game in the style of 80's MS-DOS Freeware"} thumb={"https://the-maze-tower.surge.sh/"} />
-          {/* </a> */}
+          <Project title={'The Maze Tower'} image={tmtScreen} cap={"A maze adventure game in the style of 80's MS-DOS Freeware"} thumb={"https://the-maze-tower.surge.sh/"} cap2={"JavaScript, HTML, CSS"} />
         </div>
         <div className="project">
-          {/* <a target="blank" href="https://hiredgig.herokuapp.com"> */}
-          <Project title={'Hired'} image={Hiredmain} cap={"A hiring app for bandleaders looking for musicians"} thumb={"https://hiredgig.herokuapp.com"} />
-          {/* </a> */}
+          <Project title={'Hired'} image={Hiredmain} cap={"A hiring app for bandleaders looking for musicians"} thumb={"https://hiredgig.herokuapp.com"} cap2={"ReactJS, PostgreSQL, JavaScript, HTML, CSS"} />
+          {/* <div className="tech-box">
+            <img className="tech" src={express} />
+            <img className="tech" src={react} />
+          </div> */}
         </div>
       </div>
     </div >

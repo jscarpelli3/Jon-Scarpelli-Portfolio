@@ -1,15 +1,14 @@
 import React from 'react'
 
-const Project = ({ title, image, cap, thumb }) => {
+const Project = ({ title, image, cap, thumb, cap2 }) => {
   return (
     <div className="project-card" >
       <h1 className="project-title">{title}</h1>
       <a target="blank" href={thumb}>
         <img className="project-thumb" src={image} />
       </a>
-      <button className="button">Git</button>
-      <button className="button">Live Site</button>
       <p className="caption">{cap}</p>
+      <p className="caption">{cap2}</p>
     </div>
   )
 }
