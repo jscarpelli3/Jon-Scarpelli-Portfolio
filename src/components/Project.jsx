@@ -16,16 +16,6 @@ const Project = ({ title, image, cap, thumb, cap2, git, git2, git2Check, express
       <a target="blank" href={thumb}>
         <img className="project-thumb" src={image} />
       </a>
-      <div className="tech-box">
-        {reactCk ? <img className="t-icon" src={react} /> : undefined}
-        {vueCk ? <img className="t-icon" src={vue} /> : undefined}
-        {expressCk ? <img className="t-icon" src={express} /> : undefined}
-        {mongoCk ? <img className="t-icon" src={mongo} /> : undefined}
-        {postgCk ? <img className="t-icon" src={postg} /> : undefined}
-        {htmlCk ? <img className="t-icon" src={html} /> : undefined}
-        {cssCk ? <img className="t-icon" src={css} /> : undefined}
-        {jsCk ? <img className="t-icon" src={js} /> : undefined}
-      </div>
       <div className="proj-details">
         <p className="caption">{cap}</p>
         <p className="caption">{cap2}</p>
@@ -40,6 +30,16 @@ const Project = ({ title, image, cap, thumb, cap2, git, git2, git2Check, express
               <img className="icon" src={gitIcn} /> <br />BackEnd
             </a>
           </div> : undefined}
+        </div>
+        <div className="tech-box">
+          {reactCk ? <img className="t-icon" src={react} /> : undefined}
+          {vueCk ? <img className="t-icon" src={vue} /> : undefined}
+          {expressCk ? <img className="t-icon" src={express} /> : undefined}
+          {mongoCk ? <img className="t-icon" src={mongo} /> : undefined}
+          {postgCk ? <img className="t-icon" src={postg} /> : undefined}
+          {htmlCk ? <img className="t-icon" src={html} /> : undefined}
+          {cssCk ? <img className="t-icon" src={css} /> : undefined}
+          {jsCk ? <img className="t-icon" src={js} /> : undefined}
         </div>
       </div>
     </div>

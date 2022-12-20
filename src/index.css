@@ -195,6 +195,7 @@ section {
   height: 60vh;
   width: 300px;
   height: 545px;
+  overflow: hidden;
 }
 
 /* .project-thumb:hover {
@@ -216,7 +217,11 @@ section {
 
 .git-card {
   display: inline-block;
-  margin: 2vh 2vw 1vh 2vw;
+  margin: 1vh 2vw 1vh 2vw;
+}
+
+.git-txt {
+  font-size: small;
 }
 
 
@@ -230,9 +235,11 @@ section {
 
 .caption {
   margin-top: 2vh;
+  /* margin-bottom: 1vh; */
   /* width: 20vw; */
   padding: 0 5% 0 5%;
   font-size: medium;
+  height: 32px;
 }
 
 .name {
@@ -282,6 +289,9 @@ a:hover {
 .t-icon {
   height: 28px;
   margin: 0 .4vw;
+  background-color: #ffffff2a;
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.428);
+  border-radius: 4px;
   /* filter: grayscale(1) contrast(20); */
 }
 
@@ -297,8 +307,4 @@ a:hover {
 .credits {
   font-size: small;
   color: #000000;
-}
-
-.git-txt {
-  font-size: small;
 }
