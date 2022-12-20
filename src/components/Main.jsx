@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Project from './Project'
 import ProfPic2 from '../images/prof_pic2.jpg'
 import tmtScreen from '../images/TMT_scrn_b.png'
+import zmbScreen from '../images/zombie.png'
 import RRmain from '../images/RR_main2.png'
 import Hiredmain from '../images/Hired_main2.png'
 import RDTmain from '../images/RDT_main2.png'
@@ -42,7 +43,10 @@ const Main = () => {
           <Project expressCk={false} reactCk={false} jsCk={true} cssCk={true} vueCk={false} postgCk={false} htmlCk={true} mongoCk={false} title={'The Maze Tower'} image={tmtScreen} cap={"A maze adventure game in the style of 80's MS-DOS Freeware"} thumb={"https://the-maze-tower.surge.sh/"} cap2={"JavaScript, HTML, CSS"} git={"https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower"} git2Check={false} />
         </div>
         <div className="project">
-          <Project expressCk={true} reactCk={true} jsCk={true} cssCk={true} vueCk={false} postgCk={true} htmlCk={true} mongoCk={false} title={'The Maze Tower'} image={tmtScreen} title={'Hired'} image={Hiredmain} cap={"A hiring app for bandleaders looking for musicians"} thumb={"https://hiredgig.herokuapp.com"} cap2={"ReactJS, PostgreSQL, JavaScript, HTML, CSS"} git={"https://github.com/jscarpelli3/Hired"} gitB={"https://github.com/jscarpelli3/ResRecs"} git2Check={true} />
+          <Project expressCk={true} reactCk={true} jsCk={true} cssCk={true} vueCk={false} postgCk={true} htmlCk={true} mongoCk={false} title={'Hired'} image={Hiredmain} cap={"A hiring app for bandleaders looking for musicians"} thumb={"https://hiredgig.herokuapp.com"} cap2={"ReactJS, PostgreSQL, JavaScript, HTML, CSS"} git={"https://github.com/jscarpelli3/Hired"} gitB={"https://github.com/jscarpelli3/ResRecs"} git2Check={true} />
+        </div>
+        <div className="project">
+          <Project expressCk={false} reactCk={false} jsCk={false} cssCk={false} vueCk={false} postgCk={false} htmlCk={false} mongoCk={false} pythonCk={true} title={'Python Adventure'} image={zmbScreen} cap={"A 'Choose Your Own Adventure' written in python"} thumb={"https://replit.com/@jscarpelli3/zombie-text-adventure"} cap2={"Text-only"} git={"https://github.com/jscarpelli3/zombie-text-adventure"} git2Check={false} />
         </div>
       </div>
     </div >
