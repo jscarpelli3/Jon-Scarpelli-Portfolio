@@ -39,7 +39,7 @@ const Main = () => {
           </div>
         </div>
       </section >
-      <p className="p-title">Projects</p>
+      <h2 className="p-title">Projects</h2>
       <div className="project-grid">
         <div className="project">
           <Project expressCk={true} reactCk={true} jsCk={true} cssCk={true} vueCk={false} postgCk={false} htmlCk={true} mongoCk={true} title={'ResRecs'} image={RRmain} cap={"A restaurant recommendation app for small groups"} cap2={"ReactJS, MongoDB, JavaScript, HTML, CSS"} thumb={"https://resrecs.herokuapp.com"} git={"https://github.com/jscarpelli3/ResRecs"} git2Check={false} />

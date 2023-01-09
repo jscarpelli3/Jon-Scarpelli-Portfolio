@@ -9,18 +9,22 @@ import Stitely from '../images/Stitely.png'
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className='main-div'>
       <div className="about-me">
-        <img alt="alt-prof-pic" className="alt-js" src={jsAltPic}></img>
+        {/* <img alt="alt-prof-pic" className="alt-js" src={jsAltPic}></img> */}
         <div className="blurb">
 
           <h2 className="about-header">...a bit more about me</h2>
-          <div className="blurb-text">
-            <p> Though I have come a little late in life to sofware development, the tech space has been ever present in my mind and heart.  I am a life long computer-kid spending my early years with my older brother working through various Commodore64 programs and immersed in old (and very opaque) video games.  Over the years, as I followed my love and talent for music, tehcnology was a constant.  In college I started an electronic music ensemble, engaged in digital media courses and pursued electronic music recording and composition.  After graduating, I set out to learn audio engineering in the Chicago advertising industry becoming an assistant at one of the top commercial music houses in Chicago.  <br /><br />Along the way, I developed and led several original music projects, websites to help promote those endeavors, a music liscensing portfolio and most recently I also began delving into video game development.<br /><br />  The links below can take you to the variety of personal and professional projects I have worked on over the years.  ALL of these projects, in one way or another, have prepared me for a future in tech.  They have helped me grow my understanding of topics such as communication, leadership, & marketing and have pushed me to create public facing work with high attention to detail & a clear sense of purpose. </p>
-          </div>
+          <section className='blurb-box'>
+
+            <p className="blurb-text"> Though I have come a little late in life to sofware development, the tech space has been ever present in my mind and heart.  I am a life long computer-kid spending my early years with my older brother working through various Commodore64 programs and immersed in old (and very opaque) video games.  Over the years, as I followed my love and talent for music, tehcnology was a constant.  In college I started an electronic music ensemble, engaged in digital media courses and pursued electronic music recording and composition.  After graduating, I set out to learn audio engineering in the Chicago advertising industry becoming an assistant at one of the top commercial music houses in Chicago.  </p>
+            <p className="blurb-text">Along the way, I developed and led several original music projects, websites to help promote those endeavors, a music liscensing portfolio and most recently I also began delving into video game development.</p>
+            <p className="blurb-text">  The links below can take you to the variety of personal and professional projects I have worked on over the years.  ALL of these projects, in one way or another, have prepared me for a future in tech.  They have helped me grow my understanding of topics such as communication, leadership, & marketing and have pushed me to create public facing work with high attention to detail & a clear sense of purpose. </p>
+          </section>
+
         </div>
       </div>
-      <p className="p-title">Personal & Other Projects</p>
+      <h2 className="p-title">Personal & Other Projects</h2>
       <section className='project-grid'>
         <div className="project">
           <Project title={'Music Liscensing Portfolio'} image={pond5} cap={"Collection of original music compositions available for liscensing through POND5.com"} cap2={""} thumb={"https://www.pond5.com/artist/jscarpelli?tab=music"} git2Check={false} />
