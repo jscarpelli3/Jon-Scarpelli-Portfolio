@@ -1,7 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Project from './Project'
-import ProfPic2 from '../images/prof_pic2.jpg'
 import tmtScreen from '../images/TMT_scrn_b.png'
 import zmbScreen from '../images/zombie.png'
 import RRmain from '../images/RR_main2.png'
@@ -10,24 +9,33 @@ import RDTmain from '../images/RDT_main2.png'
 import LkIn from '../images/LIInBug.png'
 import email from '../images/email.png'
 import git from '../images/github-mark-white.png'
+import jsAltPic from '../images/Scarpelli-Jon-007.png'
 
 const Main = () => {
   return (
     <div className="main-div">
       <section>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank"><img src={LkIn} className="icon lnk-ico" /></a>
-          <a href="mailto:scarpelli.jon@gmail.com" target="blank"><img src={email} className="icon main-ico" /></a>
-          <a href="https://github.com/jscarpelli3" target="blank"><img src={git} className="icon git-ico" /></a>
+          <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank"><img alt="linkd-tag" src={LkIn} className="icon lnk-ico" /></a>
+          <a href="mailto:scarpelli.jon@gmail.com" target="blank"><img alt="mail-tag" src={email} className="icon main-ico" /></a>
+          <a href="https://github.com/jscarpelli3" target="blank"><img alt="git-tag" src={git} className="icon git-ico" /></a>
 
         </div>
         <div className="greeting">
-          <img src={ProfPic2} className="prof-pic" />
+          <img alt="prof-pic" className="prof-pic" src={jsAltPic}></img>
           <div className='greeting-info'>
             <h3 className='hello'>hello, i'm</h3>
-            <h1 className='name'>Jon Scarpelli</h1>
+            <h2 className='name'>Jon Scarpelli</h2>
             <h4 className='titles'>Software Developer | Musician | Game Designer </h4>
             <p className='about'>I am a Software engineer with a passion for creative problem solving and intuitive design. Prior to transitioning to the tech space, I spent my career as a professional musician, music teacher and recording engineer, cultivating my skill set in administering high level client service, detail-oriented deliverables & clear communication strategies.</p>
+            <Link to="/about-me">
+              <h4 className="more">...click for more about me</h4>
+            </Link>
+          </div>
+          <div className="more-about">
+            {/* <a href="https://docs.google.com/document/d/1aQ81_zmerbjSuLIKYvzh8fgONmQjI4K6ngtQvaX414Q/export?format=pdf" target="blank">
+              <h4>dowload my resume here</h4>
+            </a> */}
           </div>
         </div>
       </section >

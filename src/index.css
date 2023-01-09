@@ -13,25 +13,10 @@ html {
 }
 
 body {
-  /* background-color: rgba(34, 112, 147, 1.0); */
-  /* background: linear-gradient(325deg, #5588b1 60%, #3c6382 60%); */
-  /* background-color: rgba(60, 99, 130, 1.0); */
-  /* background-color: rgba(129, 236, 236, 1.0); */
-  /* background: -webkit-linear-gradient(-70deg, #2c2c54 30%, rgba(0, 0, 0, 0) 30%), url('/Users/jscarpelli/ga_seir919/projects/Jon-Scarpelli-Portfolio/JScarpelli-Portfolio/src/images/nico-baum-xZroI5V_dxc-unsplash.jpg'); */
   background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0.127) 30%), url('./images/nico-baum-xZroI5V_dxc-unsplash.jpg');
   background-size: cover;
   background-position: 0 20%;
 }
-
-/* Good Samaaritan
-#3c6382 */
-/* LUCKY POINT
-#2c2c54 */
-/* OCHRE */
-/* #fa7c30 */
-/* HOT STONE */
-/* #aaa69d */
-/* #222f3e */
 
 .app {
   font-family: 'Josefin Sans';
@@ -44,13 +29,13 @@ body {
   display: none;
 }
 
-.nav-div {
+.nav {
   padding: 1vw;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background-color: rgba(77, 77, 77, 0.274);
+  background-color: rgba(77, 77, 77, 0.45);
 }
 
 .nav-name {
@@ -61,17 +46,28 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.italic {
+  font-style: italic;
+  font-size: small;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
 a {
   color: rgb(255, 255, 255);
 
 }
 
 .main-div {
-
   padding: 4vh 2vw;
   text-align: center;
   text-shadow: 1px 1px 2px #000000;
 }
+
 
 section {
   padding-left: 5vw;
@@ -96,15 +92,8 @@ section {
   width: 3vh;
 }
 
-/* .git-ico {
-  filter: invert(100%);
-} */
-
-/* .lnk-ico {
-  filter: grayscale(1) contrast(20);
-} */
-
-.greeting {
+.greeting,
+.about-me {
   color: rgb(255, 255, 255);
   margin-top: 2vh;
   margin-bottom: 4vh;
@@ -116,7 +105,7 @@ section {
   /* height: 30vh; */
   width: 20vw;
   grid-area: 1/1/4/2;
-  margin-right: 1.5vw;
+  margin-right: 1vw;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.079);
   /* color: rgba(250, 125, 48, 0.884); */
@@ -132,16 +121,54 @@ section {
   grid-area: 1/2/4/3;
 }
 
+
 .greeting-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: rgba(0, 0, 0, 0.255);
+  background-color: rgba(0, 0, 0, 0.466);
   border-radius: 6px;
   padding-left: 2vw;
   margin-right: 4vw;
+  margin-top: 2vh;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 2vw;
+  margin-right: 4vw;
   margin-top: 6vh;
+  text-align: left;
+}
+
+.blurb-text {
+  background-color: rgba(0, 0, 0, 0.595);
+  border-radius: 6px;
+  padding: 2vw;
+}
+
+.alt-js {
+  width: 22vw;
+  border-radius: 50%;
+  grid-area: 1/1/4/2;
+  margin-right: 1.5vw;
+  border: 2px solid rgba(0, 0, 0, 0.079);
+  box-shadow: -60px -0px 3px rgba(250, 125, 48, 0.255);
+  margin-bottom: 2.5vh;
+  margin-left: 10vw;
+}
+
+.about-header {
+  margin: 1vh 0 2vh 0;
+}
+
+.more {
+  padding-left: 39vw;
+  color: #a5a5a5;
 }
 
 .hello {
@@ -202,6 +229,7 @@ section {
   background-image: url('/Users/jscarpelli/ga_seir919/projects/Jon-Scarpelli-Portfolio/JScarpelli-Portfolio/src/images/TMT_scrn_a.png');
 } */
 
+
 .link-area {
   display: flex;
   flex-direction: row;
@@ -235,11 +263,32 @@ section {
 
 .caption {
   margin-top: 2vh;
+  margin-bottom: 1vh;
+  width: 20vw;
+  padding: 0 5% 0 5%;
+  font-size: medium;
+  height: 32px;
+}
+
+.hidden-cap {
+  margin-top: 2vh;
   /* margin-bottom: 1vh; */
   /* width: 20vw; */
   padding: 0 5% 0 5%;
   font-size: medium;
   height: 32px;
+  opacity: 0.7;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-cap:hover .hidden {
+  display: block;
+  background-color: #000000;
+  opacity: 1;
+  z-index: 1;
 }
 
 .name {

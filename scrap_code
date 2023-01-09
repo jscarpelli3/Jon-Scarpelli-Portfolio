@@ -1,0 +1,20 @@
+/* Good Samaaritan
+#3c6382 */
+/* LUCKY POINT
+#2c2c54 */
+/* OCHRE */
+/* #fa7c30 */
+/* HOT STONE */
+/* #aaa69d */
+/* #222f3e */
+
+body {
+  /* background-color: rgba(34, 112, 147, 1.0); */
+  /* background: linear-gradient(325deg, #5588b1 60%, #3c6382 60%); */
+  /* background-color: rgba(60, 99, 130, 1.0); */
+  /* background-color: rgba(129, 236, 236, 1.0); */
+  /* background: -webkit-linear-gradient(-70deg, #2c2c54 30%, rgba(0, 0, 0, 0) 30%), url('/Users/jscarpelli/ga_seir919/projects/Jon-Scarpelli-Portfolio/JScarpelli-Portfolio/src/images/nico-baum-xZroI5V_dxc-unsplash.jpg'); */
+  background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0.127) 30%), url('./images/nico-baum-xZroI5V_dxc-unsplash.jpg');
+  background-size: cover;
+  background-position: 0 20%;
+}
