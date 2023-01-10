@@ -112,13 +112,11 @@ section {
 }
 
 .prof-pic {
-  /* height: 30vh; */
   width: 20vw;
   grid-area: 1/1/4/2;
   margin-right: 1vw;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.079);
-  /* color: rgba(250, 125, 48, 0.884); */
   box-shadow: -60px -0px 3px rgba(250, 125, 48, 0.525);
   margin-bottom: 2.5vh;
   margin-left: 3vw;
@@ -186,6 +184,10 @@ section {
   color: #a5a5a5;
 }
 
+.more-about {
+  margin-top: 1px;
+}
+
 .hello {
   margin-top: 3vh;
   font-weight: 200;
@@ -232,7 +234,7 @@ section {
   margin: 2vw 2vw 0 2vw;
   width: 20vw;
   height: 60vh;
-  width: 300px;
+  min-width: 300px;
   min-height: 575px;
   overflow: hidden;
 }
@@ -305,8 +307,8 @@ section {
 
 .name {
   font-family: "Permanent Marker";
-  font-size: x-large;
-  margin: -.4vh 0;
+  font-size: 34px;
+  margin: -.8vh 0;
 }
 
 .nav-name {
@@ -353,7 +355,6 @@ a:hover {
   background-color: #ffffff2a;
   box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.428);
   border-radius: 4px;
-  /* filter: grayscale(1) contrast(20); */
 }
 
 .ft-icons {
