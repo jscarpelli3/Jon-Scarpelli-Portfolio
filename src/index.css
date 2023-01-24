@@ -231,7 +231,7 @@ section {
   box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.428);
   background-color: #3c6382d2;
   border-radius: 3px;
-  margin: 2vw 2vw 0 2vw;
+  margin: 2vh 2vw 0 2vw;
   width: 20vw;
   height: 60vh;
   min-width: 300px;
@@ -338,7 +338,7 @@ a:hover {
   margin: 0 .2vw 1vh .2vw;
   align-self: right;
   height: 3vh;
-  width: 3vh;
+  width: 3vw;
 }
 
 .tech-box {
