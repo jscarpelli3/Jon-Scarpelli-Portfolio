@@ -233,17 +233,17 @@ section {
   border-radius: 3px;
   margin: 2vh 2vw 0 2vw;
   width: 20vw;
-  height: 60vh;
+  max-height: 80vh;
   min-width: 300px;
   max-width: 352px;
   min-height: 575px;
-  overflow: hidden;
 }
 
 .link-area {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: .2rem;
 }
 
 .proj-details {
@@ -251,7 +251,7 @@ section {
   height: 1000px;
   background-color: #00000067;
   margin: 0;
-
+  padding-right: 1vw;
 }
 
 .git-card {
@@ -278,11 +278,11 @@ section {
   line-height: 1.1;
   margin: 2vh 0 1vh 0;
   margin-bottom: 1vh;
-  width: 20vw;
-  padding: 0 5% 0 5%;
+  /* width: 20vw; */
+  padding: 0 3% 0 3%;
   font-size: medium;
   height: 32px;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .hidden-cap {
