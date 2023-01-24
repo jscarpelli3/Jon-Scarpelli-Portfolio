@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="mailto:scarpelli.jon@gmail.com" target="blank"><img src={email} className="ft-icon main-ico" /></a>
         <a href="https://github.com/jscarpelli3" target="blank"><img src={git} className="ft-icon git-ico" /></a>
         <div className="res-foot">
-          <h3> <a href="https://docs.google.com/document/d/1aQ81_zmerbjSuLIKYvzh8fgONmQjI4K6ngtQvaX414Q/export?format=pdf" target="blank">Resume</a></h3>
+          <h3> <a href="https://docs.google.com/document/d/1aQ81_zmerbjSuLIKYvzh8fgONmQjI4K6ngtQvaX414Q/export?format=pdf" target="blank">Download My Resume</a></h3>
         </div>
       </div>
       <p className="credits">

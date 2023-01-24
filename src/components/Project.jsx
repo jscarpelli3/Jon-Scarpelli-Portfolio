@@ -18,7 +18,7 @@ const Project = ({ title, image, cap, thumb, cap2, git, git2, git2Check, express
         <img className="project-thumb" alt="thumb" src={image} />
       </a>
       <div className="proj-details">
-        <div>
+        <div className="captions">
           <p className="caption">{cap}</p>
           <p className="caption">{cap2}
           </p>

@@ -216,6 +216,10 @@ section {
   flex-flow: wrap;
 }
 
+.project {
+  margin: 10px;
+}
+
 .p-title {
   margin-top: 6vh;
   font-size: 7vh;
@@ -233,17 +237,21 @@ section {
   border-radius: 3px;
   margin: 2vh 2vw 0 2vw;
   width: 20vw;
-  max-height: 80vh;
+  max-height: 650px;
   min-width: 300px;
   max-width: 352px;
-  min-height: 575px;
+  min-height: 609px;
 }
 
 .link-area {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: .2rem;
+  /* margin-top: .2rem; */
+}
+
+.captions {
+  padding-bottom: 10px;
 }
 
 .proj-details {
@@ -252,6 +260,7 @@ section {
   background-color: #00000067;
   margin: 0;
   padding-right: 1vw;
+  padding-left: 1vw;
 }
 
 .git-card {
@@ -276,7 +285,7 @@ section {
   text-align: center;
   min-height: 44px;
   line-height: 1.1;
-  margin: 2vh 0 1vh 0;
+  margin: 1.3vh 0 .8vh 0;
   margin-bottom: 1vh;
   /* width: 20vw; */
   padding: 0 3% 0 3%;
@@ -337,8 +346,8 @@ a:hover {
 .ft-icon {
   margin: 0 .2vw 1vh .2vw;
   align-self: right;
-  height: 3vh;
-  width: 3vw;
+  height: 24px;
+  width: 24px;
 }
 
 .tech-box {
@@ -359,12 +368,12 @@ a:hover {
 }
 
 .ft-icons {
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
 }
 
 .ft-name,
 .name {
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 .credits {
