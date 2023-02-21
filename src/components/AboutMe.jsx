@@ -24,7 +24,8 @@ const AboutMe = () => {
 
         </div>
       </div>
-      <h2 className="p-title">Personal & Other Projects</h2>
+      <h3 className="p-title">Personal Interest Work</h3>
+      <h5>Non-software development or software development adjacent work</h5>
       <section className='project-grid'>
         <div className="project">
           <Project title={'Music Liscensing Portfolio'} image={pond5} cap={"Collection of original music compositions available for liscensing through POND5.com"} cap2={""} thumb={"https://www.pond5.com/artist/jscarpelli?tab=music"} git2Check={false} />
