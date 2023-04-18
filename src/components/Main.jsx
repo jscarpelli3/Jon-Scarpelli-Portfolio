@@ -13,16 +13,15 @@ import git from '../images/github-mark-white.png'
 import jsAltPic from '../images/Scarpelli-Jon-007.png'
 
 const Main = () => {
-
-  const { ref, inView, entry } =  useInView ({
+  const { ref, inView, entry } = useInView({
     threshold: 0,
-    rootMargin: '-100px 0px',
+    rootMargin: '-100px 0px'
   })
 
   return (
     <div className="main-div">
       <section>
-        <div className="icons slide-in">
+        <div ref={ref} className={`icons ${inView ? 'slide-in' : 'fade-out'}`}>
           <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank">
             <img alt="linkd-tag" src={LkIn} className="icon lnk-ico" />
           </a>
@@ -34,7 +33,12 @@ const Main = () => {
           </a>
         </div>
         <div className="greeting">
-          <div ref={ref} className={`prof-pic-container ${inView ? 'slide-in-left' : 'fade-out'}`}>
+          <div
+            ref={ref}
+            className={`prof-pic-container ${
+              inView ? 'slide-in-left' : 'fade-out'
+            }`}
+          >
             <img alt="prof-pic" className="prof-pic" src={jsAltPic}></img>
             <div className="more-about">
               <a
@@ -45,7 +49,10 @@ const Main = () => {
               </a>
             </div>
           </div>
-          <div ref={ref} className={`greeting-info ${inView ? 'fade-in' : 'fade-out'}`}>
+          <div
+            ref={ref}
+            className={`greeting-info ${inView ? 'fade-in' : 'fade-out'}`}
+          >
             <h1 className="hello">hello, i'm</h1>
             <h2 className="name">Jon Scarpelli</h2>
             <h3 className="titles">
@@ -54,14 +61,12 @@ const Main = () => {
             <p className="about">
               I am a Software engineer with a passion for creative problem
               solving and intuitive design. Prior to transitioning to the tech
-              space, I spent my career as a professional musician, music teacher
-              and recording engineer, cultivating my skill set in administering
-              high level client service, detail-oriented deliverables & clear
-              communication strategies.
+              space, I spent my career as a professional musician, music teacher and recording engineer, cultivating a
+              high level client service mindset, detail-oriented deliverables and clear communication strategies.
             </p>
             <div className="more-container">
               <Link to="/about-me">
-                <h4 className="more">...click for more about me</h4>
+                <h4 className="more">...click for bio</h4>
               </Link>
             </div>
           </div>
