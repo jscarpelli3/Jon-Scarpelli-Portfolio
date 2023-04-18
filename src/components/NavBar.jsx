@@ -19,7 +19,7 @@ const NavBar = () => {
         <h3 className="nav-link">
           {' '}
           <a
-            href="https://docs.google.com/document/d/1KbWnjjg87i8NoC606kQUP7mL6Xc_cypK97-PoUA7ThE/preview"
+            href="https://docs.google.com/document/d/1KbWnjjg87i8NoC606kQUP7mL6Xc_cypK97-PoUA7ThE/preview?usp=sharing"
             target="blank"
           >
             Resume

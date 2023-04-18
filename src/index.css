@@ -161,10 +161,6 @@ section {
   width: 3vh;
 }
 
-.lnk-ico {
-  -webkit-filter: brightness(80);
-}
-
 .greeting {
   color: rgb(255, 255, 255);
   margin-top: 2vh;
@@ -203,6 +199,9 @@ section {
   font-size: 1rem;
 }
 
+.lnk-ico {
+  -webkit-filter: brightness(80);
+}
 .titles,
 .name,
 .hello,
@@ -241,6 +240,7 @@ section {
   text-align: left;
   line-height: 2.5vh;
   margin-bottom: 12px;
+  padding: 1rem;
 }
 
 .alt-js {
