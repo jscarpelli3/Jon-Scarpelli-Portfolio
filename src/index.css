@@ -150,7 +150,8 @@ section {
   flex-direction: column;
   margin-right: 1vw;
   padding: 0.3vw;
-  background-color: rgba(0, 255, 255, 0.27);
+  /* background-color: rgba(0, 255, 255, 0.27); */
+  background-color: rgba(250, 125, 48, 0.525);
 }
 
 .icon {
@@ -158,6 +159,10 @@ section {
   align-self: center;
   height: 3vh;
   width: 3vh;
+}
+
+.lnk-ico {
+  -webkit-filter: brightness(80);
 }
 
 .greeting {

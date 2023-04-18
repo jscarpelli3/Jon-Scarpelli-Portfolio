@@ -59,7 +59,7 @@ const Main = () => {
               Software Developer | Musician | Game Designer
             </h3>
             <p className="about">
-              I am a Software engineer with a passion for creative problem
+              I am a software engineer with a passion for creative problem
               solving and intuitive design. Prior to transitioning to the tech
               space, I spent my career as a professional musician, music teacher and recording engineer, cultivating a
               high level client service mindset, detail-oriented deliverables and clear communication strategies.
