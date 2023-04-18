@@ -30,17 +30,19 @@ const Project = ({
   mongoCk,
   pythonCk
 }) => {
-
-const { ref, inView } =  useInView ({
-  threshold: 0,
-  rootMargin: '-100px 0px',
-})
+  const { ref, inView } = useInView({
+    threshold: 0,
+    rootMargin: '-100px 0px'
+  })
 
   return (
-    <div className={`project-card ${inView ? 'slide-in' : 'fade-out'}`} ref={ref}>
+    <div
+      className={`project-card ${inView ? 'slide-in' : 'fade-out'}`}
+      ref={ref}
+    >
       <h1 className="project-title">{title}</h1>
       <a target="blank" href={thumb}>
-        <img className="project-thumb" alt="thumb" src={image} />
+        <img className="project-thumb square" alt="thumb" src={image} />
       </a>
       <div className="proj-details">
         <div className="captions">
