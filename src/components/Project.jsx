@@ -1,4 +1,5 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer'
 import gitIcn from '../images/github-mark-white.png'
 import express from '../images/express.png'
 import react from '../images/react.png'
@@ -10,9 +11,33 @@ import html from '../images/html.png'
 import mongo from '../images/mongo.png'
 import python from '../images/python.png'
 
-const Project = ({ title, image, cap, thumb, cap2, git, git2, git2Check, expressCk, reactCk, jsCk, cssCk, vueCk, postgCk, htmlCk, mongoCk, pythonCk }) => {
+const Project = ({
+  title,
+  image,
+  cap,
+  thumb,
+  cap2,
+  git,
+  git2,
+  git2Check,
+  expressCk,
+  reactCk,
+  jsCk,
+  cssCk,
+  vueCk,
+  postgCk,
+  htmlCk,
+  mongoCk,
+  pythonCk
+}) => {
+
+const { ref, inView } =  useInView ({
+  threshold: 0,
+  rootMargin: '-100px 0px',
+})
+
   return (
-    <div className="project-card" >
+    <div className={`project-card ${inView ? 'slide-in' : 'fade-out'}`} ref={ref}>
       <h1 className="project-title">{title}</h1>
       <a target="blank" href={thumb}>
         <img className="project-thumb" alt="thumb" src={image} />
@@ -20,28 +45,44 @@ const Project = ({ title, image, cap, thumb, cap2, git, git2, git2Check, express
       <div className="proj-details">
         <div className="captions">
           <p className="caption">{cap}</p>
-          <p className="caption">{cap2}
-          </p>
+          <p className="caption">{cap2}</p>
         </div>
         <div className="link-area">
           <div className="git-card">
-            {git ? <a className="git-txt" href={git}>
-              <img alt="icn" className="icon" src={gitIcn} /><br />FrontEnd
-            </a> : undefined}
+            {git ? (
+              <a className="git-txt" href={git}>
+                <img alt="icn" className="icon" src={gitIcn} />
+                <br />
+                FrontEnd
+              </a>
+            ) : undefined}
           </div>
-          {git2Check ? <div className="git-card">
-            <a className="git-txt" href={git2}>
-              <img alt="icn" className="icon" src={gitIcn} /> <br />BackEnd
-            </a>
-          </div> : undefined}
+          {git2Check ? (
+            <div className="git-card">
+              <a className="git-txt" href={git2}>
+                <img alt="icn" className="icon" src={gitIcn} /> <br />
+                BackEnd
+              </a>
+            </div>
+          ) : undefined}
         </div>
         <div className="tech-box">
-          {reactCk ? <img alt="icn" className="t-icon" src={react} /> : undefined}
+          {reactCk ? (
+            <img alt="icn" className="t-icon" src={react} />
+          ) : undefined}
           {vueCk ? <img alt="icn" className="t-icon" src={vue} /> : undefined}
-          {expressCk ? <img alt="icn" className="t-icon" src={express} /> : undefined}
-          {mongoCk ? <img alt="icn" className="t-icon" src={mongo} /> : undefined}
-          {postgCk ? <img alt="icn" className="t-icon" src={postg} /> : undefined}
-          {pythonCk ? <img alt="icn" className="t-icon" src={python} /> : undefined}
+          {expressCk ? (
+            <img alt="icn" className="t-icon" src={express} />
+          ) : undefined}
+          {mongoCk ? (
+            <img alt="icn" className="t-icon" src={mongo} />
+          ) : undefined}
+          {postgCk ? (
+            <img alt="icn" className="t-icon" src={postg} />
+          ) : undefined}
+          {pythonCk ? (
+            <img alt="icn" className="t-icon" src={python} />
+          ) : undefined}
           {htmlCk ? <img alt="icn" className="t-icon" src={html} /> : undefined}
           {cssCk ? <img alt="icn" className="t-icon" src={css} /> : undefined}
           {jsCk ? <img alt="icn" className="t-icon" src={js} /> : undefined}
