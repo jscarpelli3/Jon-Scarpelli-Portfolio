@@ -61,8 +61,7 @@ const Main = () => {
             <p className="about">
               I am a software engineer with a passion for creative problem
               solving and intuitive design. Prior to transitioning to the tech
-              space, I spent my career as a professional musician, music teacher and recording engineer, cultivating a
-              high level client service mindset, detail-oriented deliverables and clear communication strategies.
+              space, I spent my career as a professional musician, music teacher and recording engineer. I value collaboration and teamwork to ensure high quality client service, detail-oriented deliverables and clear communication strategies.
             </p>
             <div className="more-container">
               <Link to="/about-me">
