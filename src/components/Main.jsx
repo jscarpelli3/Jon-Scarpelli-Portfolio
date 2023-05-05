@@ -129,7 +129,7 @@ const Main = () => {
             cap={"A maze adventure game in the style of 80's MS-DOS Freeware"}
             thumb={'https://the-maze-tower.surge.sh/'}
             cap2={
-              'This is an original game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack.'
+              'An original HTML5 game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack.'
             }
             git={'https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower'}
             git2Check={false}

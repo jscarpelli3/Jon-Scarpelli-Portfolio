@@ -140,6 +140,11 @@ section {
   border-radius: 6px;
 }
 
+p,
+.about {
+  line-height: 1.2;
+}
+
 .icons {
   position: absolute;
   float: right;
