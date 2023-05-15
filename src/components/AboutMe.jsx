@@ -6,6 +6,7 @@ import pond5 from '../images/lisc_port_pond5.png'
 import HMS from '../images/HMS.png'
 import seabound from '../images/seabound.png'
 import LSspotify from '../images/LSspotify.png'
+import LSsite from '../images/ls_site.png'
 import Stitely from '../images/Stitely.png'
 
 const AboutMe = () => {
@@ -38,6 +39,9 @@ const AboutMe = () => {
         </div>
         <div className="project">
           <Project title={'Seabound (DEMO)'} image={seabound} cap={"Demo of 2-D pixel-art video game developed using 'Construct3' game making software, 'Asperite' & javaScript.  Work-in-progress being developed by myself and a partner."} cap2={""} thumb={"https://pixelisfaded.itch.io/seabound"} git2Check={false} />
+        </div>
+        <div className="project">
+          <Project title={'Low Swans'} image={LSsite} cap={"Website for my band called Low Swans'.  Designed and administered site."} cap2={""} thumb={"http://low-swans.weebly.com/"} git2Check={false} />
         </div>
         <div className="project">
           <Project title={'Low Swans on Spotify'} image={LSspotify} cap={"Original music from my band, 'Low Swans'.  All songs written, programmed & recorded by me except where noted."} cap2={""} thumb={"https://open.spotify.com/artist/0eofl8XS5S9CBbMmAuDsxw"} git2Check={false} />
