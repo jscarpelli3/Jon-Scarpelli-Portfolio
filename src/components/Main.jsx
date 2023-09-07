@@ -7,6 +7,7 @@ import zmbScreen from '../images/zombie.png'
 import RRmain from '../images/RR_main2.png'
 import Hiredmain from '../images/Hired_main2.png'
 import RDTmain from '../images/RDT_main2.png'
+import STL from '../images/STL.png'
 import LkIn from '../images/LIInBug.png'
 import email from '../images/email.png'
 import git from '../images/github-mark-white.png'
@@ -21,7 +22,7 @@ const Main = () => {
   return (
     <div className="main-div">
       <section>
-        <div ref={ref} className={`icons ${inView ? 'slide-in' : 'fade-out'}`}>
+        <div ref={ref} className={`icons ${inView ? "slide-in" : "fade-out"}`}>
           <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank">
             <img alt="linkd-tag" src={LkIn} className="icon lnk-ico" />
           </a>
@@ -36,7 +37,7 @@ const Main = () => {
           <div
             ref={ref}
             className={`prof-pic-container ${
-              inView ? 'slide-in-left' : 'fade-out'
+              inView ? "slide-in-left" : "fade-out"
             }`}
           >
             <img alt="prof-pic" className="prof-pic" src={jsAltPic}></img>
@@ -51,7 +52,7 @@ const Main = () => {
           </div>
           <div
             ref={ref}
-            className={`greeting-info ${inView ? 'fade-in' : 'fade-out'}`}
+            className={`greeting-info ${inView ? "fade-in" : "fade-out"}`}
           >
             <h1 className="hello">hello, i'm</h1>
             <h2 className="name">Jon Scarpelli</h2>
@@ -61,7 +62,10 @@ const Main = () => {
             <p className="about">
               I am a software engineer with a passion for creative problem
               solving and intuitive design. Prior to transitioning to the tech
-              space, I spent my career as a professional musician, music teacher and recording engineer. I value collaboration and teamwork to ensure high quality client service, detail-oriented deliverables and clear communication strategies.
+              space, I spent my career as a professional musician, music teacher
+              and recording engineer. I value collaboration and teamwork to
+              ensure high quality client service, detail-oriented deliverables
+              and clear communication strategies.
             </p>
             <div className="more-container">
               <Link to="/about-me">
@@ -75,21 +79,23 @@ const Main = () => {
       <div className="project-grid">
         <div className="project">
           <Project
-            expressCk={true}
+            expressCk={false}
             reactCk={true}
             jsCk={true}
             cssCk={true}
             vueCk={false}
             postgCk={false}
             htmlCk={true}
-            mongoCk={true}
-            title={'ResRecs'}
-            image={RRmain}
-            cap={'A restaurant recommendation app for small groups'}
-            cap2={'note: server code lives in the same Git repo as the client'}
-            thumb={'https://resrecs.herokuapp.com'}
-            git={'https://github.com/jscarpelli3/ResRecs'}
-            git2Check={false}
+            mongoCk={false}
+            gatsbyCk={true}
+            title={"St. Laurence High School"}
+            image={STL}
+            cap={"Rebuilt and refactored the CMS using Sanity.io"}
+            cap2={"Refactored Gatsby.JS front end. "}
+            thumb={"https://www.stlaurence.com/"}
+            git={"https://github.com/geletkaplus/stlaurence"}
+            git2Check={true}
+            gitB={"https://github.com/geletkaplus/STL_Sanity"}
           />
         </div>
         <div className="project">
@@ -102,15 +108,15 @@ const Main = () => {
             postgCk={true}
             htmlCk={true}
             mongoCk={false}
-            title={'RockDog Trivia!'}
+            title={"RockDog Trivia!"}
             image={RDTmain}
-            cap={'A mobile-styled competitive music trivia app'}
-            thumb={'https://rockdog-trivia.herokuapp.com'}
+            cap={"A mobile-styled competitive music trivia app"}
+            thumb={"https://rockdog-trivia.herokuapp.com"}
             cap2={
-              'Meant for mobile devices & features hand-rolled auth and a 3rd party API'
+              "Meant for mobile devices & features hand-rolled auth and a 3rd party API"
             }
-            git={'https://github.com/jscarpelli3/rockdog-trivia'}
-            gitB={'https://github.com/jscarpelli3/rockdog-trivia-backend'}
+            git={"https://github.com/jscarpelli3/rockdog-trivia"}
+            gitB={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
             git2Check={true}
           />
         </div>
@@ -124,14 +130,14 @@ const Main = () => {
             postgCk={false}
             htmlCk={true}
             mongoCk={false}
-            title={'The Maze Tower'}
+            title={"The Maze Tower"}
             image={tmtScreen}
             cap={"A maze adventure game in the style of 80's MS-DOS Freeware"}
-            thumb={'https://the-maze-tower.surge.sh/'}
+            thumb={"https://the-maze-tower.surge.sh/"}
             cap2={
-              'An original HTML5 game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack.'
+              "An original HTML5 game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack."
             }
-            git={'https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower'}
+            git={"https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower"}
             git2Check={false}
           />
         </div>
@@ -145,14 +151,33 @@ const Main = () => {
             postgCk={true}
             htmlCk={true}
             mongoCk={false}
-            title={'Hired'}
+            title={"Hired"}
             image={Hiredmain}
-            cap={'A hiring app for bandleaders looking for musicians'}
-            thumb={'https://hiredgig.herokuapp.com'}
-            cap2={'Includes hand-rolled auth'}
-            git={'https://github.com/jscarpelli3/Hired'}
-            gitB={'https://github.com/jscarpelli3/ResRecs'}
+            cap={"A hiring app for bandleaders looking for musicians"}
+            thumb={"https://hiredgig.herokuapp.com"}
+            cap2={"Includes hand-rolled auth"}
+            git={"https://github.com/jscarpelli3/Hired"}
+            gitB={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
             git2Check={true}
+          />
+        </div>
+        <div className="project">
+          <Project
+            expressCk={true}
+            reactCk={true}
+            jsCk={true}
+            cssCk={true}
+            vueCk={false}
+            postgCk={false}
+            htmlCk={true}
+            mongoCk={true}
+            title={"ResRecs"}
+            image={RRmain}
+            cap={"A restaurant recommendation app for small groups"}
+            cap2={"note: server code lives in the same Git repo as the client"}
+            thumb={"https://resrecs.herokuapp.com"}
+            git={"https://github.com/jscarpelli3/ResRecs"}
+            git2Check={false}
           />
         </div>
         <div className="project">
@@ -166,18 +191,18 @@ const Main = () => {
             htmlCk={false}
             mongoCk={false}
             pythonCk={true}
-            title={'Python Adventure'}
+            title={"Python Adventure"}
             image={zmbScreen}
             cap={"A 'Choose Your Own Adventure' written in Python"}
-            thumb={'https://replit.com/@jscarpelli3/zombie-text-adventure'}
-            cap2={'Text-only & features 8 different endings.'}
-            git={'https://github.com/jscarpelli3/zombie-text-adventure'}
+            thumb={"https://replit.com/@jscarpelli3/zombie-text-adventure"}
+            cap2={"Text-only & features 8 different endings."}
+            git={"https://github.com/jscarpelli3/zombie-text-adventure"}
             git2Check={false}
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Main

@@ -10,6 +10,7 @@ import postg from '../images/PostgreSQL.png'
 import html from '../images/html.png'
 import mongo from '../images/mongo.png'
 import python from '../images/python.png'
+import gatsby from '../images/gatsby.png'
 
 const Project = ({
   title,
@@ -28,7 +29,8 @@ const Project = ({
   postgCk,
   htmlCk,
   mongoCk,
-  pythonCk
+  pythonCk,
+  gatsbyCk
 }) => {
   const { ref, inView } = useInView({
     threshold: 0,
@@ -84,6 +86,9 @@ const Project = ({
           ) : undefined}
           {pythonCk ? (
             <img alt="icn" className="t-icon" src={python} />
+          ) : undefined}
+          {gatsbyCk ? (
+            <img alt="icn" className="t-icon" src={gatsby} />
           ) : undefined}
           {htmlCk ? <img alt="icn" className="t-icon" src={html} /> : undefined}
           {cssCk ? <img alt="icn" className="t-icon" src={css} /> : undefined}
