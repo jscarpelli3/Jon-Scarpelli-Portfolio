@@ -43,7 +43,8 @@ const Main = () => {
             <img alt="prof-pic" className="prof-pic" src={jsAltPic}></img>
             <div className="more-about">
               <a
-                href="https://docs.google.com/document/d/1KbWnjjg87i8NoC606kQUP7mL6Xc_cypK97-PoUA7ThE/preview?usp=sharing"
+                // href="https://docs.google.com/document/d/1KbWnjjg87i8NoC606kQUP7mL6Xc_cypK97-PoUA7ThE/preview?usp=sharing"
+                href="https://docs.google.com/document/d/1T7ce6dG-sm8dipoUAQRGa4rKXJ9MYJftEd0W3eq_5Oc/preview?usp=sharing"
                 target="blank"
               >
                 <h3 className="view-res">VIEW MY RESUME</h3>
