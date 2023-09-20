@@ -14,9 +14,9 @@ import gatsby from '../images/gatsby.png'
 
 const Project = ({
   title,
-  image,
-  cap,
   thumb,
+  cap,
+  thumbAlt,
   cap2,
   git,
   git2,
@@ -43,8 +43,8 @@ const Project = ({
       ref={ref}
     >
       <h1 className="project-title">{title}</h1>
-      <a target="blank" href={thumb}>
-        <img className="project-thumb square" alt="thumb" src={image} />
+      <a target="blank" href={thumbAlt}>
+        <img className="project-thumbAlt square" alt="thumbAlt" src={thumb} />
       </a>
       <div className="proj-details">
         <div className="captions">
@@ -72,27 +72,27 @@ const Project = ({
         </div>
         <div className="tech-box">
           {reactCk ? (
-            <img alt="icn" className="t-icon" src={react} />
+            <img alt="ReactJS" className="t-icon" src={react} />
           ) : undefined}
-          {vueCk ? <img alt="icn" className="t-icon" src={vue} /> : undefined}
+          {vueCk ? <img alt="VueJS" className="t-icon" src={vue} /> : undefined}
           {expressCk ? (
-            <img alt="icn" className="t-icon" src={express} />
+            <img alt="ExpressJS" className="t-icon" src={express} />
           ) : undefined}
           {mongoCk ? (
-            <img alt="icn" className="t-icon" src={mongo} />
+            <img alt="Mongo" className="t-icon" src={mongo} />
           ) : undefined}
           {postgCk ? (
-            <img alt="icn" className="t-icon" src={postg} />
+            <img alt="Postrges" className="t-icon" src={postg} />
           ) : undefined}
           {pythonCk ? (
-            <img alt="icn" className="t-icon" src={python} />
+            <img alt="Python" className="t-icon" src={python} />
           ) : undefined}
           {gatsbyCk ? (
-            <img alt="icn" className="t-icon" src={gatsby} />
+            <img alt="Gatsby" className="t-icon" src={gatsby} />
           ) : undefined}
-          {htmlCk ? <img alt="icn" className="t-icon" src={html} /> : undefined}
-          {cssCk ? <img alt="icn" className="t-icon" src={css} /> : undefined}
-          {jsCk ? <img alt="icn" className="t-icon" src={js} /> : undefined}
+          {htmlCk ? <img alt="HTML5" className="t-icon" src={html} /> : undefined}
+          {cssCk ? <img alt="CSS" className="t-icon" src={css} /> : undefined}
+          {jsCk ? <img alt="Javascript" className="t-icon" src={js} /> : undefined}
         </div>
       </div>
     </div>

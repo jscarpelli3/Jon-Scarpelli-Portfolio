@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer'
 import Project from './Project'
 import tmtScreen from '../images/TMT_scrn_b.png'
 import zmbScreen from '../images/zombie.png'
+import CM_screen from '../images/CM-screen.png'
 import RRmain from '../images/RR_main2.png'
 import Hiredmain from '../images/Hired_main2.png'
 import RDTmain from '../images/RDT_main2.png'
@@ -80,20 +81,16 @@ const Main = () => {
       <div className="project-grid">
         <div className="project">
           <Project
-            expressCk={false}
-            reactCk={true}
-            jsCk={true}
-            cssCk={true}
-            vueCk={false}
-            postgCk={false}
-            htmlCk={true}
-            mongoCk={false}
-            gatsbyCk={true}
+            reactCk
+            jsCk
+            cssCk
+            htmlCk
+            gatsbyCk
             title={"St. Laurence High School"}
-            image={STL}
-            cap={"Rebuilt and refactored the CMS using Sanity.io"}
+            thumb={STL}
+            cap={"Rebuilt and refactored the CMS moving from Wordpress to Sanity.io"}
             cap2={"Refactored Gatsby.JS front end. "}
-            thumb={"https://www.stlaurence.com/"}
+            thumbAlt={"https://www.stlaurence.com/"}
             git={"https://github.com/geletkaplus/stlaurence"}
             git2Check={true}
             gitB={"https://github.com/geletkaplus/STL_Sanity"}
@@ -101,102 +98,98 @@ const Main = () => {
         </div>
         <div className="project">
           <Project
-            expressCk={true}
-            reactCk={false}
-            jsCk={true}
-            cssCk={true}
-            vueCk={true}
-            postgCk={true}
-            htmlCk={true}
-            mongoCk={false}
+            expressCk
+            jsCk
+            cssCk
+            vueCk
+            postgCk
+            htmlCk
             title={"RockDog Trivia!"}
-            image={RDTmain}
+            thumb={RDTmain}
             cap={"A mobile-styled competitive music trivia app"}
-            thumb={"https://rockdog-trivia.herokuapp.com"}
+            thumbAlt={"https://rockdog-trivia.herokuapp.com"}
             cap2={
               "Meant for mobile devices & features hand-rolled auth and a 3rd party API"
             }
             git={"https://github.com/jscarpelli3/rockdog-trivia"}
             gitB={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
-            git2Check={true}
+            git2Check
           />
         </div>
         <div className="project">
           <Project
-            expressCk={false}
-            reactCk={false}
-            jsCk={true}
-            cssCk={true}
-            vueCk={false}
-            postgCk={false}
-            htmlCk={true}
-            mongoCk={false}
+            jsCk
+            cssCk
+            htmlCk
             title={"The Maze Tower"}
-            image={tmtScreen}
+            thumb={tmtScreen}
             cap={"A maze adventure game in the style of 80's MS-DOS Freeware"}
-            thumb={"https://the-maze-tower.surge.sh/"}
+            thumbAlt={"https://the-maze-tower.surge.sh/"}
             cap2={
               "An original HTML5 game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack."
             }
             git={"https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower"}
-            git2Check={false}
           />
         </div>
         <div className="project">
           <Project
-            expressCk={true}
-            reactCk={true}
-            jsCk={true}
-            cssCk={true}
-            vueCk={false}
-            postgCk={true}
-            htmlCk={true}
-            mongoCk={false}
+            expressCk
+            reactCk
+            jsCk
+            cssCk
+            postgCk
+            htmlCk
             title={"Hired"}
-            image={Hiredmain}
+            thumb={Hiredmain}
             cap={"A hiring app for bandleaders looking for musicians"}
-            thumb={"https://hiredgig.herokuapp.com"}
+            thumbAlt={"https://hiredgig.herokuapp.com"}
             cap2={"Includes hand-rolled auth"}
             git={"https://github.com/jscarpelli3/Hired"}
             gitB={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
-            git2Check={true}
+            git2Check
           />
         </div>
         <div className="project">
           <Project
-            expressCk={true}
-            reactCk={true}
-            jsCk={true}
-            cssCk={true}
-            vueCk={false}
-            postgCk={false}
-            htmlCk={true}
-            mongoCk={true}
+            expressCk
+            reactCk
+            jsCk
+            cssCk
+            htmlCk
+            mongoCk
             title={"ResRecs"}
-            image={RRmain}
+            thumb={RRmain}
             cap={"A restaurant recommendation app for small groups"}
             cap2={"note: server code lives in the same Git repo as the client"}
-            thumb={"https://resrecs.herokuapp.com"}
+            thumbAlt={"https://resrecs.herokuapp.com"}
             git={"https://github.com/jscarpelli3/ResRecs"}
             git2Check={false}
           />
         </div>
         <div className="project">
           <Project
-            expressCk={false}
-            reactCk={false}
-            jsCk={false}
-            cssCk={false}
-            vueCk={false}
-            postgCk={false}
-            htmlCk={false}
-            mongoCk={false}
-            pythonCk={true}
+            pythonCk
             title={"Python Adventure"}
-            image={zmbScreen}
+            thumb={zmbScreen}
             cap={"A 'Choose Your Own Adventure' written in Python"}
-            thumb={"https://replit.com/@jscarpelli3/zombie-text-adventure"}
+            thumbAlt={"https://replit.com/@jscarpelli3/zombie-text-adventure"}
             cap2={"Text-only & features 8 different endings."}
+            git={"https://github.com/jscarpelli3/zombie-text-adventure"}
+            git2Check={false}
+          />
+        </div>
+        <div className="project">
+          <Project
+            reactCk
+            jsCk
+            cssCk
+            htmlCk
+            gatsbyCk
+            title={"Century Mallets"}
+            thumb={CM_screen}
+            cap={"Client project for Century Mallet Instrument Repair Service"}
+            thumbAlt={"https://centurymallet.com/"}
+            cap2={""}
             git={"https://github.com/jscarpelli3/zombie-text-adventure"}
             git2Check={false}
           />
