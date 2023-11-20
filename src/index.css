@@ -398,6 +398,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding: 2vh 0 2vh 0;
   box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.428);
   background-color: #3c6382d2;
@@ -415,6 +416,21 @@ a:hover {
   background-color: #3c6382;
   scale: 1.01;
   transition: 0.5s;
+}
+
+.project-image-container {
+  overflow-y: hidden;
+  max-width: 100%;
+  object-position: center;
+}
+
+.project-image-container a {
+  object-position: center;
+}
+
+.project-thumbAlt {
+  width: 100%;
+  object-position: center;
 }
 
 .link-area {
@@ -446,9 +462,7 @@ a:hover {
   font-size: small;
 }
 
-.project-thumbAlt {
-  width: 100%;
-}
+
 
 .res-foot {
   color: #000000;

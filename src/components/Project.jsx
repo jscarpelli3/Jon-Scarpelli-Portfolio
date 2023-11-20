@@ -17,6 +17,7 @@ const Project = ({
   thumb,
   cap,
   thumbAlt,
+  href,
   cap2,
   git,
   git2,
@@ -43,9 +44,11 @@ const Project = ({
       ref={ref}
     >
       <h1 className="project-title">{title}</h1>
-      <a target="blank" href={thumbAlt}>
-        <img className="project-thumbAlt square" alt="thumbAlt" src={thumb} />
-      </a>
+        <div className="project-image-container">
+          <a target="blank" href={href}>
+            <img className="project-thumbAlt square" alt={thumbAlt} src={thumb} />
+          </a>
+        </div>
       <div className="proj-details">
         <div className="captions">
           <p className="caption">{cap}</p>

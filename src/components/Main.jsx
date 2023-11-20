@@ -89,8 +89,9 @@ const Main = () => {
             title={"St. Laurence High School"}
             thumb={STL}
             cap={"Rebuilt and refactored the CMS moving from Wordpress to Sanity.io"}
-            cap2={"Refactored Gatsby.JS front end. "}
-            thumbAlt={"https://www.stlaurence.com/"}
+            cap2={"Refactored Gatsby.JS front end. Deployed with Netlify. "}
+            href={"https://www.stlaurence.com/"}
+            thumbAlt={"Screenshot"}
             git={"https://github.com/geletkaplus/stlaurence"}
             git2Check={true}
             gitB={"https://github.com/geletkaplus/STL_Sanity"}
@@ -107,7 +108,8 @@ const Main = () => {
             title={"RockDog Trivia!"}
             thumb={RDTmain}
             cap={"A mobile-styled competitive music trivia app"}
-            thumbAlt={"https://rockdog-trivia.herokuapp.com"}
+            href={"https://rockdog-trivia.herokuapp.com"}
+            thumbAlt={"Screenshot"}
             cap2={
               "Meant for mobile devices & features hand-rolled auth and a 3rd party API"
             }
@@ -124,7 +126,8 @@ const Main = () => {
             title={"The Maze Tower"}
             thumb={tmtScreen}
             cap={"A maze adventure game in the style of 80's MS-DOS Freeware"}
-            thumbAlt={"https://the-maze-tower.surge.sh/"}
+            href={"https://the-maze-tower.surge.sh/"}
+            thumbAlt={"Screenshot"}
             cap2={
               "An original HTML5 game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack."
             }
@@ -142,7 +145,8 @@ const Main = () => {
             title={"Hired"}
             thumb={Hiredmain}
             cap={"A hiring app for bandleaders looking for musicians"}
-            thumbAlt={"https://hiredgig.herokuapp.com"}
+            href={"https://hiredgig.herokuapp.com"}
+            thumbAlt={"Screenshot"}
             cap2={"Includes hand-rolled auth"}
             git={"https://github.com/jscarpelli3/Hired"}
             gitB={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
@@ -161,7 +165,8 @@ const Main = () => {
             thumb={RRmain}
             cap={"A restaurant recommendation app for small groups"}
             cap2={"note: server code lives in the same Git repo as the client"}
-            thumbAlt={"https://resrecs.herokuapp.com"}
+            href={"https://resrecs.herokuapp.com"}
+            thumbAlt={"Screenshot"}
             git={"https://github.com/jscarpelli3/ResRecs"}
             git2Check={false}
           />
@@ -172,7 +177,8 @@ const Main = () => {
             title={"Python Adventure"}
             thumb={zmbScreen}
             cap={"A 'Choose Your Own Adventure' written in Python"}
-            thumbAlt={"https://replit.com/@jscarpelli3/zombie-text-adventure"}
+            href={"https://replit.com/@jscarpelli3/zombie-text-adventure"}
+            thumbAlt={"Screenshot"}
             cap2={"Text-only & features 8 different endings."}
             git={"https://github.com/jscarpelli3/zombie-text-adventure"}
             git2Check={false}
@@ -187,9 +193,10 @@ const Main = () => {
             gatsbyCk
             title={"Century Mallets"}
             thumb={CM_screen}
-            cap={"Client project for Century Mallet Instrument Repair Service"}
-            thumbAlt={"https://centurymallet.com/"}
-            cap2={""}
+            cap={"Developed web app based on design specs. Client project for Century Mallet Instrument Repair Service"}
+            href={"https://centurymallet.com/"}
+            thumbAlt={"Screenshot"}
+            cap2={"Server functions and Deployment using Firebase"}
             git={"https://github.com/jscarpelli3/zombie-text-adventure"}
             git2Check={false}
           />
