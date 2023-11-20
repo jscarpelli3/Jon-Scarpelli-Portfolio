@@ -1,8 +1,16 @@
 # Jon-Scarpelli-Portfolio
 
-Resume Link: (GoogleDoc) https://docs.google.com/document/d/1pNdg2NvJ7TlWuhiRaffaeeBwiSA4Brqs9DjviPDSYHo/edit?usp=sharing
+Deployed to Firebase (11/20/23)
 
-https://drive.google.com/uc?export=download&id=1pNdg2NvJ7TlWuhiRaffaeeBwiSA4Brqs9DjviPDSYHo
+To Deploy run <kbd>npm run build</kbd>.
+Then <kbd>Git Add</kbd>.
+Then <kbd>Git Commit -m""</kbd>.
+Then <kbd>Git push origin main</kbd>
+
+
+Resume Link: (GoogleDoc) https://docs.google.com/document/d/1T7ce6dG-sm8dipoUAQRGa4rKXJ9MYJftEd0W3eq_5Oc/edit?usp=sharing
+
+https://drive.google.com/uc?export=download&id=1T7ce6dG-sm8dipoUAQRGa4rKXJ9MYJftEd0W3eq_5Oc/
 
 
 
