@@ -1,0 +1,81 @@
+[debug] [2023-11-20T21:38:35.571Z] ----------------------------------------------------------------------
+[debug] [2023-11-20T21:38:35.573Z] Command:       /opt/homebrew/Cellar/node/20.5.0/bin/node /opt/homebrew/bin/firebase deploy --debug
+[debug] [2023-11-20T21:38:35.573Z] CLI Version:   12.9.1
+[debug] [2023-11-20T21:38:35.573Z] Platform:      darwin
+[debug] [2023-11-20T21:38:35.573Z] Node Version:  v20.5.0
+[debug] [2023-11-20T21:38:35.573Z] Time:          Mon Nov 20 2023 15:38:35 GMT-0600 (Central Standard Time)
+[debug] [2023-11-20T21:38:35.573Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-20T21:38:35.609Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-20T21:38:35.610Z] > authorizing via signed-in user (scarpelli.jon@gmail.com)
+[debug] [2023-11-20T21:38:35.610Z] [iam] checking project jscarpelli-home for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-11-20T21:38:35.611Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/jscarpelli-home:testIamPermissions [none]
+[debug] [2023-11-20T21:38:35.611Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/jscarpelli-home:testIamPermissions x-goog-quota-user=projects/jscarpelli-home
+[debug] [2023-11-20T21:38:35.611Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jscarpelli-home:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-20T21:38:35.762Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/jscarpelli-home:testIamPermissions 200
+[debug] [2023-11-20T21:38:35.763Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jscarpelli-home:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-20T21:38:35.763Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jscarpelli-home [none]
+[debug] [2023-11-20T21:38:35.924Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jscarpelli-home 200
+[debug] [2023-11-20T21:38:35.924Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jscarpelli-home {"projectId":"jscarpelli-home","projectNumber":"1072720232081","displayName":"jscarpelli-home","name":"projects/jscarpelli-home","resources":{"hostingSite":"jscarpelli-home"},"state":"ACTIVE","etag":"1_3cea0858-a31e-4577-983a-9355ff8308e3"}
+[info] 
+[info] === Deploying to 'jscarpelli-home'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-11-20T21:38:35.931Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions [none]
+[debug] [2023-11-20T21:38:35.931Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-11-20T21:38:36.727Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions 200
+[debug] [2023-11-20T21:38:36.728Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions {"name":"projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[jscarpelli-home]: beginning deploy... 
+[info] i  hosting[jscarpelli-home]: found 32 files in build 
+[debug] [2023-11-20T21:38:36.744Z] [hosting] uploading with 200 concurrency
+[debug] [2023-11-20T21:38:36.748Z] [hosting] hash cache [YnVpbGQ] stored for 32 files
+[debug] [2023-11-20T21:38:36.748Z] [hosting][hash queue][FINAL] {"max":2,"min":0,"avg":0,"active":0,"complete":32,"success":32,"errored":0,"retried":0,"total":32,"elapsed":3}
+[debug] [2023-11-20T21:38:36.748Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb:populateFiles [none]
+[debug] [2023-11-20T21:38:36.748Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb:populateFiles {"files":{"/404.html":"05cbc6f94d7a69ce2e29646eab13be2c884e61ba93e3094df5028866876d18b3","/asset-manifest.json":"ccc81ebeb2b35f13306be19b2592e077f7b78dd419669a738c70c10b9b8618a7","/favicon.ico":"5c849c1fc82d02521aeab0c0c5af349a63ed14c93a4684ad25f214dbcdc7b3bc","/index.html":"4f7bec3fe7afdcf6850829e29bfe1dcb1e369ff4c51bdc7b254ab85ec1ac816e","/static/css/main.6f9a946f.css":"d724549e86247d1a6a100345c3df5d8575b71f7fd75aa3cd15923bb8bdbbbc98","/static/css/main.6f9a946f.css.map":"79842b2e3cb262953bfb2d4ca5e004a701856adf5afb82604b06d523e99a47ac","/static/js/main.682382f4.js":"aa0b4493b17a8ab3ceb7eafe62f1a467a00e07fe49e803d43d8c9f23c6515f15","/static/js/main.682382f4.js.LICENSE.txt":"1f71174df1ca765506b63e445f6aa7c9f296681b1f3736fe444ee38c36292a25","/static/js/main.682382f4.js.map":"8c6483abc9a5909a640f2567f5540185a2c5df95d158a2197623ee86468dc512","/static/media/CM-screen.39d9319278f7151d04b9.png":"ab67fabfd89efb32d5e772c2d4f26069208c9a59cc4d3a1d28574ae507d98cb0","/static/media/HMS.87b3ebac037c0f153c4f.png":"6ce2fcf2ad67c8f86a494055b1e6bd7bcef88ed0f3de80de4119902c63bae59d","/static/media/Hired_main2.86ab45733d3e40a03078.png":"764aa00d22d882cfcc823ac02ede40715ffec0ff4c9b7005a9d1e7d2797bf560","/static/media/LIInBug.ee94644633be244020f6.png":"42738b4568d08dca3cc0bab5d4d9755880e53d6356b832bba6500cbd5f18e3ad","/static/media/LSspotify.efb713bf192181fa88e1.png":"99a9ff4f8804b77e2d971cd4e8609c7a4e9d6420834451b195377ef20fd60b58","/static/media/RDT_main2.bb2deb74a2751cdb30a0.png":"d705de41845bc8c56b72dab673cca72b21ee36abe84e8da6c8923c81faadea7c","/static/media/RR_main2.92466db9db086f20a249.png":"dfc64e8d63116c6d5d0ebfc91ecbd6a38129dcff5a11c5659fa7fb6a5c73e319","/static/media/STL.1dadf3ad0d3d5f43712c.png":"98e3cc4137617cb9d6b3285eca120709f68cd3d9978a4abc75dda057f035aa94","/static/media/Scarpelli-Jon-007.d7fae5297bce5e45f1fd.png":"def7605f0cf17b88ae24fafb628ca8817bbca9a4299e10a46c87146418f44f54","/static/media/Stitely.5c478a36d2d2185e0746.png":"e4df9fbf121a4d856dc94a42f8d7d60124ef3a3439ae87859782d6d61df204a5","/static/media/TMT_scrn_b.95bffe0d9fa0154731c2.png":"241572e1712ed4b5e980f6bbf788f4fdc6adf6446319eef82fb69fcdf99bef41","/static/media/css.6c9fd512b594be488cf9.png":"ebe97ad9164f64229bd05ebc6326c6b9a4a661bfabd2f27ba705ffde9df8d0e4","/static/media/express.b44f5a4b0ab040328aac.png":"8d5d17b135f65702c8db37d2f01d7aef5fcffef63d101aca5f85052e95eb0647","/static/media/gatsby.197f84e65ab628cc59ce.png":"f63caf3785dadef9c45b7da7b309449c66831526db86c18bddfbb096e3a88945","/static/media/js.3dfb665e058d08c99f28.png":"38ddffc780c48e7f325d58d56eadffb7be3f539e0c7a5036cd132fd4f6e23494","/static/media/lisc_port_pond5.a40406bf8b4a732c140a.png":"f8ecd7acfb86a1913a6928e8cfbf4f6813ec361364946e1dc39e1212db498cb2","/static/media/ls_site.fe67aa92db5160fe2d0e.png":"b1b85cfd71aa9cdc2b00b450a41264b62811ecfdcb5a0e6efbdfb0ff752ecb77","/static/media/mongo.44b01d6cf38a2a2e6528.png":"2e73a2927c6f26e79244f6f44b879611b75d01ce597ff43009df1545dc3d74a2","/static/media/nico-baum-xZroI5V_dxc-unsplash.6fdf51e0de05142fe13a.jpg":"8fbf5cfe0e9a97a731c52889e46038a1ae72c93f6d017e141014786f3be4a841","/static/media/python.448fb2a83595fa5c5c8a.png":"a78a4c6c87b6b2e0d90d7396e26e4f57f6c22c01c0360ba2d0625e5d365cb288","/static/media/react.c2c8bcdadb7703b31dcb.png":"5342f9593b037ebe6ccb8b17a12de657e781a61cd1598903ba4d480a3f539e10","/static/media/seabound.5c0a3eba2e829496f264.png":"a5d1df8081163fcdcc67730f98b4e4dec7ee73216ce88d49802b41da0ebfac7a","/static/media/zombie.9e18751d50b7c88bd992.png":"3d1cb34ede0e545e882f67cfa4641d27fe43b5313ac63e033aa5cc3c19b62da1"}}
+[debug] [2023-11-20T21:38:37.126Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb:populateFiles 200
+[debug] [2023-11-20T21:38:37.126Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/jscarpelli-home/versions/325af9718dffccbb/files"}
+[debug] [2023-11-20T21:38:37.127Z] [hosting][populate queue][FINAL] {"max":380,"min":380,"avg":380,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":380}
+[debug] [2023-11-20T21:38:37.127Z] [hosting] uploads queued: 0
+[debug] [2023-11-20T21:38:37.127Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1700516317127}
+[info] i  hosting: upload complete 
+[info] ✔  hosting[jscarpelli-home]: file upload complete 
+[debug] [2023-11-20T21:38:37.129Z] [hosting] deploy completed after 399ms
+[debug] [2023-11-20T21:38:37.129Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "jscarpelli-home"
+    },
+    "version": "projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb"
+  }
+]
+[info] i  hosting[jscarpelli-home]: finalizing version... 
+[debug] [2023-11-20T21:38:37.132Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions/325af9718dffccbb updateMask=status%2Cconfig
+[debug] [2023-11-20T21:38:37.132Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions/325af9718dffccbb {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-11-20T21:38:37.662Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions/325af9718dffccbb 200
+[debug] [2023-11-20T21:38:37.662Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/versions/325af9718dffccbb {"name":"projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-11-20T21:38:36.260201Z","createUser":{"email":"scarpelli.jon@gmail.com"},"finalizeTime":"2023-11-20T21:38:37.599337Z","finalizeUser":{"email":"scarpelli.jon@gmail.com"}}
+[debug] [2023-11-20T21:38:37.662Z] [hosting] finalized version for jscarpelli-home:[object Object]
+[info] ✔  hosting[jscarpelli-home]: version finalized 
+[info] i  hosting[jscarpelli-home]: releasing new version... 
+[debug] [2023-11-20T21:38:37.663Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/channels/live/releases versionName=projects%2F1072720232081%2Fsites%2Fjscarpelli-home%2Fversions%2F325af9718dffccbb
+[debug] [2023-11-20T21:38:37.663Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/channels/live/releases {}
+[debug] [2023-11-20T21:38:38.260Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/channels/live/releases 200
+[debug] [2023-11-20T21:38:38.261Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jscarpelli-home/channels/live/releases {"name":"projects/1072720232081/sites/jscarpelli-home/channels/live/releases/1700516317479000","version":{"name":"projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-11-20T21:38:36.260201Z","createUser":{"email":"scarpelli.jon@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJhoD3Br8FAGEMymhnzrikoMaLRVyZL_NohbXdDKGrGtg"},"finalizeTime":"2023-11-20T21:38:37.599337Z","finalizeUser":{"email":"scarpelli.jon@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJhoD3Br8FAGEMymhnzrikoMaLRVyZL_NohbXdDKGrGtg"}},"type":"DEPLOY","releaseTime":"2023-11-20T21:38:37.479Z","releaseUser":{"email":"scarpelli.jon@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJhoD3Br8FAGEMymhnzrikoMaLRVyZL_NohbXdDKGrGtg"}}
+[debug] [2023-11-20T21:38:38.261Z] [hosting] release: {"name":"projects/1072720232081/sites/jscarpelli-home/channels/live/releases/1700516317479000","version":{"name":"projects/1072720232081/sites/jscarpelli-home/versions/325af9718dffccbb","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-11-20T21:38:36.260201Z","createUser":{"email":"scarpelli.jon@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJhoD3Br8FAGEMymhnzrikoMaLRVyZL_NohbXdDKGrGtg"},"finalizeTime":"2023-11-20T21:38:37.599337Z","finalizeUser":{"email":"scarpelli.jon@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJhoD3Br8FAGEMymhnzrikoMaLRVyZL_NohbXdDKGrGtg"}},"type":"DEPLOY","releaseTime":"2023-11-20T21:38:37.479Z","releaseUser":{"email":"scarpelli.jon@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJhoD3Br8FAGEMymhnzrikoMaLRVyZL_NohbXdDKGrGtg"}}
+[info] ✔  hosting[jscarpelli-home]: release complete 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/jscarpelli-home/overview
+[info] Hosting URL: https://jscarpelli-home.web.app
