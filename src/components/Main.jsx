@@ -89,7 +89,7 @@ const Main = () => {
             title={"St. Laurence High School"}
             thumb={STL}
             cap={"Rebuilt and refactored the CMS moving from Wordpress to Sanity.io"}
-            cap2={"Refactored Gatsby.JS front end. "}
+            cap2={"Refactored Gatsby.JS front end. Deployed with Netlify. "}
             thumbAlt={"https://www.stlaurence.com/"}
             git={"https://github.com/geletkaplus/stlaurence"}
             git2Check={true}
@@ -189,7 +189,7 @@ const Main = () => {
             thumb={CM_screen}
             cap={"Client project for Century Mallet Instrument Repair Service"}
             thumbAlt={"https://centurymallet.com/"}
-            cap2={""}
+            cap2={"Server functions and Deployment using Firebase"}
             git={"https://github.com/jscarpelli3/zombie-text-adventure"}
             git2Check={false}
           />

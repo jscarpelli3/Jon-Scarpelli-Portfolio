@@ -11,13 +11,13 @@ const Footer = () => {
       </div>
       <div className="ft-icons">
         <a href="https://www.linkedin.com/in/jon-scarpelli/" target="blank">
-          <img src={LkIn} className="ft-icon lnk-ico" />
+          <img src={LkIn} alt="linked in icon" className="ft-icon lnk-ico" />
         </a>
         <a href="mailto:scarpelli.jon@gmail.com" target="blank">
-          <img src={email} className="ft-icon main-ico" />
+          <img src={email} alt="email icon" className="ft-icon main-ico" />
         </a>
         <a href="https://github.com/jscarpelli3" target="blank">
-          <img src={git} className="ft-icon git-ico" />
+          <img src={git} alt="githun icon" className="ft-icon git-ico" />
         </a>
         <div className="res-foot">
           <h3>
