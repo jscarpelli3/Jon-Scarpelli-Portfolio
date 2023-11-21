@@ -153,7 +153,7 @@ const Main = () => {
             git2Check
           />
         </div>
-        <div className="project">
+        {/* <div className="project">
           <Project
             expressCk
             reactCk
@@ -170,7 +170,7 @@ const Main = () => {
             git={"https://github.com/jscarpelli3/ResRecs"}
             git2Check={false}
           />
-        </div>
+        </div> */}
         <div className="project">
           <Project
             pythonCk
