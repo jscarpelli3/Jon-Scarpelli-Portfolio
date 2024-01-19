@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 import Project from './Project'
 import tmtScreen from '../images/TMT_scrn_b.png'
+import kadena from '../images/Kadena.png'
 import zmbScreen from '../images/zombie.png'
 import CM_screen from '../images/CM-screen.png'
 import RRmain from '../images/RR_main2.png'
@@ -13,6 +14,7 @@ import LkIn from '../images/LIInBug.png'
 import email from '../images/email.png'
 import git from '../images/github-mark-white.png'
 import jsAltPic from '../images/Scarpelli-Jon-007.png'
+import * as icons from 'react-icons/md'; 
 
 const Main = () => {
   const { ref, inView, entry } = useInView({
@@ -81,48 +83,51 @@ const Main = () => {
       <div className="project-grid">
         <div className="project">
           <Project
-            reactCk
-            jsCk
-            cssCk
-            htmlCk
-            gatsbyCk
-            title={"St. Laurence High School"}
-            thumb={STL}
-            cap={"Rebuilt and refactored the CMS moving from Wordpress to Sanity.io"}
-            cap2={"Refactored Gatsby.JS front end. Deployed with Netlify. "}
-            href={"https://www.stlaurence.com/"}
+            icons={['sanity', 'next', 'ts','tailwind','vercel']}
+            title={"Kadena"}
+            thumb={kadena}
+            cap={"Worked on contract as part of a design and development team to build a fullstack web app for a blockchain startup."}
+            cap2={"Built front and back end components and implemented Sanity.io's Presentation Tool    "}
+            href={"https://www.kadena.io/"}
             thumbAlt={"Screenshot"}
             git={"https://github.com/geletkaplus/stlaurence"}
             git2Check={true}
             gitB={"https://github.com/geletkaplus/STL_Sanity"}
+            />
+        </div>
+        <div className="project">
+          <Project
+          icons={['gatsby', 'sanity', 'js', 'css', 'html', 'netlify']}
+          title={"St. Laurence High School"}
+          thumb={STL}
+          cap={"Rebuilt and refactored the CMS moving from Wordpress to Sanity.io"}
+          cap2={"Refactored Gatsby.JS front end. Deployed with Netlify. "}
+          href={"https://www.stlaurence.com/"}
+          thumbAlt={"Screenshot"}
+          git={"https://github.com/geletkaplus/stlaurence"}
+          git2Check={true}
+          gitB={"https://github.com/geletkaplus/STL_Sanity"}
           />
         </div>
         <div className="project">
           <Project
-            expressCk
-            jsCk
-            cssCk
-            vueCk
-            postgCk
-            htmlCk
-            title={"RockDog Trivia!"}
-            thumb={RDTmain}
-            cap={"A mobile-styled competitive music trivia app"}
-            href={"https://rockdog-trivia.herokuapp.com"}
-            thumbAlt={"Screenshot"}
-            cap2={
-              "Meant for mobile devices & features hand-rolled auth and a 3rd party API"
-            }
-            git={"https://github.com/jscarpelli3/rockdog-trivia"}
-            gitB={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
-            git2Check
+          icons={['vue', 'postgql', 'express', 'js', 'css', 'html']}
+          title={"RockDog Trivia!"}
+          thumb={RDTmain}
+          cap={"A mobile-styled competitive music trivia app"}
+          href={"https://rockdog-trivia.herokuapp.com"}
+          thumbAlt={"Screenshot"}
+          cap2={
+            "Meant for mobile devices & features hand-rolled auth and a 3rd party API"
+          }
+          git={"https://github.com/jscarpelli3/rockdog-trivia"}
+          gitB={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
+          git2Check
           />
         </div>
         <div className="project">
           <Project
-            jsCk
-            cssCk
-            htmlCk
+            icons={['js', 'html', 'css']}
             title={"The Maze Tower"}
             thumb={tmtScreen}
             cap={"A maze adventure game in the style of 80's MS-DOS Freeware"}
@@ -132,10 +137,11 @@ const Main = () => {
               "An original HTML5 game design featuring a level-creation tool for players to create new gameplay and include it in the base level pack."
             }
             git={"https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower"}
-          />
+            />
         </div>
         <div className="project">
           <Project
+            icons={['react', 'postgql', 'express', 'js', 'css', 'html']}
             expressCk
             reactCk
             jsCk
@@ -155,12 +161,7 @@ const Main = () => {
         </div>
         {/* <div className="project">
           <Project
-            expressCk
-            reactCk
-            jsCk
-            cssCk
-            htmlCk
-            mongoCk
+            icons={['react', 'mongo', 'express', 'js', 'css', 'html']}
             title={"ResRecs"}
             thumb={RRmain}
             cap={"A restaurant recommendation app for small groups"}
@@ -173,7 +174,7 @@ const Main = () => {
         </div> */}
         <div className="project">
           <Project
-            pythonCk
+            icons={['python']}
             title={"Python Adventure"}
             thumb={zmbScreen}
             cap={"A 'Choose Your Own Adventure' written in Python"}
@@ -186,6 +187,7 @@ const Main = () => {
         </div>
         <div className="project">
           <Project
+            icons={['gatsby', 'sanity','js', 'css', 'html', 'firebase']}
             reactCk
             jsCk
             cssCk
