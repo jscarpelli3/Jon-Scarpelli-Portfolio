@@ -93,7 +93,7 @@ const Main = () => {
 				</div>
 				<div className="project">
 					<Project
-						icons={["gatsby", "sanity", "js", "css", "html", "netlify"]}
+						icons={["gatsby", "sanity", "graphql", "js", "css", "html", "netlify"]}
 						title={"St. Laurence High School"}
 						thumb={STL}
 						cap={
@@ -103,7 +103,7 @@ const Main = () => {
 						href={"https://www.stlaurence.com/"}
 						thumbAlt={"Screenshot"}
 						git={"https://github.com/geletkaplus/stlaurence"}
-						gitB={"https://github.com/geletkaplus/STL_Sanity"}
+						git2={"https://github.com/geletkaplus/STL_Sanity"}
 					/>
 				</div>
 				<div className="project">
@@ -118,7 +118,7 @@ const Main = () => {
 							"Meant for mobile devices & features hand-rolled auth and a 3rd party API"
 						}
 						git={"https://github.com/jscarpelli3/rockdog-trivia"}
-						gitB={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
+						git2={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
 					/>
 				</div>
 				<div className="project">
@@ -151,7 +151,7 @@ const Main = () => {
 						thumbAlt={"Screenshot"}
 						cap2={"Includes hand-rolled auth"}
 						git={"https://github.com/jscarpelli3/Hired"}
-						gitB={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
+						git2={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
 					/>
 				</div>
 				{/* <div className="project">
@@ -181,7 +181,7 @@ const Main = () => {
 				</div>
 				<div className="project">
 					<Project
-						icons={["gatsby", "sanity", "js", "css", "html", "firebase"]}
+						icons={["gatsby", "graphql", "js", "css", "html", "firebase"]}
 						reactCk
 						jsCk
 						cssCk

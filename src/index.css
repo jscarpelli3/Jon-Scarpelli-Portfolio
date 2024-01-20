@@ -420,11 +420,10 @@ a:hover {
 }
 
 .project-image-container {
-  overflow-y: hidden;
+  overflow-x: hidden;
   max-width: 100%;
   height: 200px;
   max-height: 200px;
-  overflow: hidden;
   object-position: center;
 }
 
@@ -437,10 +436,10 @@ a:hover {
 }
 
 .project-thumbAlt {
-  height: auto;
-  /* max-height: 240px; */
+  /* height: 100%; */
   width: 100%;
-  /* height:100%; */
+  /* width: auto; */
+  height:100%;
   object-position: center;
 }
 
@@ -448,16 +447,22 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   height: 71px;
 }
 
+.no-repo {
+font-size: small;
+color: #fa7c30;
+}
+
 .captions {
-  padding-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .proj-details {
   width: 100%;
-  /* height: 1000px; */
+  height: 100%;
   height: 100%;
   background-color: #00000067;
   margin: 0;
@@ -484,8 +489,7 @@ a:hover {
   text-align: center;
   min-height: 44px;
   line-height: 1.1;
-  margin: 1.3vh 0 0.8vh 0;
-  margin-bottom: 1vh;
+  margin: 1rem 0 1.25rem 0;
   padding: 0 3% 0 3%;
   font-size: medium;
   height: 32px;
@@ -553,15 +557,13 @@ a:hover {
 .tech-box {
   background-color: rgba(77, 77, 77, 0);
   width: 100%;
-  /* padding-top: 1.6vh; */
-  /* padding-bottom: 1.6vh; */
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  min-height: 96px;
+  margin: .25rem 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
@@ -572,7 +574,7 @@ a:hover {
   center;
   align-items: center;
   margin: 0 0.6vw;
-  height: 36px;
+  height: 42px;
   width: 36px;
 }
 
