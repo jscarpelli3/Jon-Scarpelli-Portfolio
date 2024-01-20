@@ -6,7 +6,6 @@ import tmtScreen from "../images/TMT_scrn_b.png";
 import kadena from "../images/Kadena.png";
 import zmbScreen from "../images/zombie.png";
 import CM_screen from "../images/CM-screen.png";
-import RRmain from "../images/RR_main2.png";
 import Hiredmain from "../images/Hired_main2.png";
 import RDTmain from "../images/RDT_main2.png";
 import STL from "../images/STL.png";
@@ -14,7 +13,6 @@ import LkIn from "../images/LIInBug.png";
 import email from "../images/email.png";
 import git from "../images/github-mark-white.png";
 import jsAltPic from "../images/Scarpelli-Jon-007.png";
-import * as icons from "react-icons/md";
 
 const Main = () => {
 	const { ref, inView, entry } = useInView({
