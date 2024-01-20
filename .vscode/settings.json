@@ -23,7 +23,7 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "editor.defaultFormatter": "schneiderpat.aspnet-helper",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSave": "afterDelay",
   "git.openRepositoryInParentFolders": "always",
   "editor.formatOnPaste": true,

@@ -41,7 +41,7 @@ const Project = ({
     rootMargin: '-100px 0px'
   })
 
-const iconMapping = {
+const iconMap = {
   css: { cmp: SiIcons.SiCss3, name: 'CSS3' },
   html: { cmp: SiIcons.SiHtml5, name: 'HTML5' },
   gatsby: { cmp: SiIcons.SiGatsby, name: 'Gatsby' },
@@ -73,7 +73,7 @@ const iconMapping = {
           </a>
         </div>
        
-        <div className="link-area">
+        <div className="repo-area">
           <div className="git-card">
             {git ? (
               <a className="git-txt" href={git}>
@@ -83,7 +83,7 @@ const iconMapping = {
               </a>
             ) : undefined}
           </div>
-          {git2Check ? (
+          {git2 ? (
             <div className="git-card">
               <a className="git-txt" href={git2}>
                 <img alt="icn" className="icon" src={gitIcn} /> <br />
@@ -122,12 +122,12 @@ const iconMapping = {
           {jsCk ? <img alt="Javascript" className="t-icon" src={js} /> : undefined} */}
           {icons && icons.map((iconName, index) => {
           
-          const Icon = iconMapping[iconName].cmp;
+          const Icon = iconMap[iconName].cmp;
           if (Icon) {
             return (
               <div className="tech-list-item">
                 <Icon className="t-icon" key={index} />
-                <span className="tech-tag">{iconMapping[iconName].name}</span>
+                <span className="tech-tag">{iconMap[iconName].name}</span>
               </div>
               )
           } else {
