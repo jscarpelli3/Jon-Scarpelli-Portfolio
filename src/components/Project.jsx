@@ -1,16 +1,6 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
-import html from '../images/html.png'
-import gatsby from '../images/gatsby.png'
-import react from '../images/react.png'
 import gitIcn from '../images/github-mark-white.png'
-import express from '../images/express.png'
-import js from '../images/js.png'
-import css from '../images/css.png'
-import vue from '../images/vuejs-icon.png'
-import postg from '../images/PostgreSQL.png'
-import mongo from '../images/mongo.png'
-import python from '../images/python.png'
 import * as SiIcons from 'react-icons/si';
 
 
@@ -23,17 +13,6 @@ const Project = ({
   cap2,
   git,
   git2,
-  git2Check,
-  expressCk,
-  reactCk,
-  jsCk,
-  cssCk,
-  vueCk,
-  postgCk,
-  htmlCk,
-  mongoCk,
-  pythonCk,
-  gatsbyCk,
   icons,
 }) => {
   const { ref, inView } = useInView({

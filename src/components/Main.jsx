@@ -105,7 +105,6 @@ const Main = () => {
 						href={"https://www.stlaurence.com/"}
 						thumbAlt={"Screenshot"}
 						git={"https://github.com/geletkaplus/stlaurence"}
-						git2Check={true}
 						gitB={"https://github.com/geletkaplus/STL_Sanity"}
 					/>
 				</div>
@@ -122,7 +121,6 @@ const Main = () => {
 						}
 						git={"https://github.com/jscarpelli3/rockdog-trivia"}
 						gitB={"https://github.com/jscarpelli3/rockdog-trivia-backend"}
-						git2Check
 					/>
 				</div>
 				<div className="project">
@@ -156,7 +154,6 @@ const Main = () => {
 						cap2={"Includes hand-rolled auth"}
 						git={"https://github.com/jscarpelli3/Hired"}
 						gitB={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
-						git2Check
 					/>
 				</div>
 				{/* <div className="project">
@@ -182,7 +179,6 @@ const Main = () => {
 						thumbAlt={"Screenshot"}
 						cap2={"Text-only & features 8 different endings."}
 						git={"https://github.com/jscarpelli3/zombie-text-adventure"}
-						git2Check={false}
 					/>
 				</div>
 				<div className="project">
@@ -202,7 +198,6 @@ const Main = () => {
 						thumbAlt={"Screenshot"}
 						cap2={"Server functions and Deployment using Firebase"}
 						git={"https://github.com/jscarpelli3/zombie-text-adventure"}
-						git2Check={false}
 					/>
 				</div>
 			</div>
