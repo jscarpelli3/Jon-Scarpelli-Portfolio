@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import Project from "./Project";
 import tmtScreen from "../images/TMT_scrn_b.png";
-import kadena from "../images/Kadena.png";
+import kadena from "../images/kd_site.png";
 import zmbScreen from "../images/zombie.png";
-import CM_screen from "../images/CM-screen.png";
-import Hiredmain from "../images/Hired_main2.png";
+import CM_screen from "../images/cm_site.png";
+import Hiredmain from "../images/hired_site.png";
 import RDTmain from "../images/RDT_main2.png";
-import STL from "../images/STL.png";
+import STL from "../images/STL1.png";
 import LkIn from "../images/LIInBug.png";
 import email from "../images/email.png";
 import git from "../images/github-mark-white.png";
@@ -82,10 +82,10 @@ const Main = () => {
 						title={"Kadena"}
 						thumb={kadena}
 						cap={
-							"Contracted to a design and development team to build a fullstack web app for a blockchain startup."
+							"Contracted as part of a design and dev team to build a fullstack web app for a blockchain startup."
 						}
 						cap2={
-							"Built front and back end components and implemented Sanity.io's Presentation Tool    "
+							"Built front and back end components as well as implemented Sanity.io components and Presentation Tool    "
 						}
 						href={"https://www.kadena.io/"}
 						thumbAlt={"Screenshot"}
@@ -190,11 +190,11 @@ const Main = () => {
 						title={"Century Mallets"}
 						thumb={CM_screen}
 						cap={
-							"Developed web app based on design specs. Client project for Century Mallet Instrument Repair Service"
+							"Developed web app based on design specs and content from client."
 						}
 						href={"https://centurymallet.com/"}
 						thumbAlt={"Screenshot"}
-						cap2={"Server functions and Deployment using Firebase"}
+						cap2={"Leveraged Firebasse server functions to generate customer emails to client without an emailer service."}
 						git={"https://github.com/jscarpelli3/zombie-text-adventure"}
 					/>
 				</div>
