@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.726d59e1.css",
-    "main.js": "/static/js/main.db2e92d2.js",
+    "main.css": "/static/css/main.ce8c3cee.css",
+    "main.js": "/static/js/main.9fd1a683.js",
     "static/media/nico-baum-xZroI5V_dxc-unsplash.jpg": "/static/media/nico-baum-xZroI5V_dxc-unsplash.6fdf51e0de05142fe13a.jpg",
-    "static/media/STL.png": "/static/media/STL.6f0873230a7e978a7d53.png",
+    "static/media/kd_site.png": "/static/media/kd_site.fd3e1cd59b45960776cb.png",
+    "static/media/STL1.png": "/static/media/STL1.ebd839b477bb2d544924.png",
+    "static/media/cm_site.png": "/static/media/cm_site.8911ee938abdb7af5163.png",
+    "static/media/hired_site.png": "/static/media/hired_site.e05deabc8c76ec548e5c.png",
     "static/media/LSspotify.png": "/static/media/LSspotify.efb713bf192181fa88e1.png",
-    "static/media/Kadena.png": "/static/media/Kadena.07d2daa5547a4d2e7ddd.png",
-    "static/media/Hired_main2.png": "/static/media/Hired_main2.86ab45733d3e40a03078.png",
     "static/media/lisc_port_pond5.png": "/static/media/lisc_port_pond5.a40406bf8b4a732c140a.png",
-    "static/media/CM-screen.png": "/static/media/CM-screen.1142edf6d562da61adfa.png",
     "static/media/HMS.png": "/static/media/HMS.87b3ebac037c0f153c4f.png",
     "static/media/Stitely.png": "/static/media/Stitely.5c478a36d2d2185e0746.png",
     "static/media/Scarpelli-Jon-007.png": "/static/media/Scarpelli-Jon-007.d7fae5297bce5e45f1fd.png",
@@ -19,11 +19,11 @@
     "static/media/zombie.png": "/static/media/zombie.9e18751d50b7c88bd992.png",
     "static/media/LIInBug.png": "/static/media/LIInBug.ee94644633be244020f6.png",
     "index.html": "/index.html",
-    "main.726d59e1.css.map": "/static/css/main.726d59e1.css.map",
-    "main.db2e92d2.js.map": "/static/js/main.db2e92d2.js.map"
+    "main.ce8c3cee.css.map": "/static/css/main.ce8c3cee.css.map",
+    "main.9fd1a683.js.map": "/static/js/main.9fd1a683.js.map"
   },
   "entrypoints": [
-    "static/css/main.726d59e1.css",
-    "static/js/main.db2e92d2.js"
+    "static/css/main.ce8c3cee.css",
+    "static/js/main.9fd1a683.js"
   ]
 }
