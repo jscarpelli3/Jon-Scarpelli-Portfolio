@@ -8,6 +8,7 @@ import zmbScreen from "../images/zombie.png";
 import CM_screen from "../images/cm_site.png";
 import Hiredmain from "../images/hired_site.png";
 import RDTmain from "../images/RDT_main2.png";
+import code from "../images/code312.org_.png";
 import STL from "../images/STL1.png";
 import LkIn from "../images/LIInBug.png";
 import email from "../images/email.png";
@@ -93,7 +94,37 @@ const Main = () => {
 				</div>
 				<div className="project">
 					<Project
-						icons={["gatsby", "sanity", "graphql", "js", "css", "html", "netlify"]}
+						icons={[
+							"gatsby",
+							"sanity",
+							"graphql",
+							"js",
+							"css",
+							"html",
+							"netlify",
+						]}
+						title={"Code312 (Code for Chicago)"}
+						thumb={code}
+						cap={
+							"Built and refactored compnents for a Gatsby.JS front end. Deployed with Netlify & Sanity."
+						}
+						cap2={"Implemented GRAPHQL queries to pull data from Sanity CMS."}
+						href={"https://www.code312.org/"}
+						thumbAlt={"Screenshot"}
+						git={"https://github.com/Code-For-Chicago/code-for-chicago-gatsby"}
+					/>
+				</div>
+				<div className="project">
+					<Project
+						icons={[
+							"gatsby",
+							"sanity",
+							"graphql",
+							"js",
+							"css",
+							"html",
+							"netlify",
+						]}
 						title={"St. Laurence High School"}
 						thumb={STL}
 						cap={
@@ -194,7 +225,9 @@ const Main = () => {
 						}
 						href={"https://centurymallet.com/"}
 						thumbAlt={"Screenshot"}
-						cap2={"Leveraged Firebasse server functions to generate customer emails to client without an emailer service."}
+						cap2={
+							"Leveraged Firebasse server functions to generate customer emails to client without an emailer service."
+						}
 						git={"https://github.com/jscarpelli3/zombie-text-adventure"}
 					/>
 				</div>
