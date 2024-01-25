@@ -106,7 +106,7 @@ const Main = () => {
 						title={"Code312 (Code for Chicago)"}
 						thumb={code}
 						cap={
-							"Built and refactored compnents for a Gatsby.JS front end. Deployed with Netlify & Sanity."
+							"Built and refactored components for a Gatsby.JS front end and Sanity.io Backend. Deployed with Netlify."
 						}
 						cap2={"Implemented GRAPHQL queries to pull data from Sanity CMS."}
 						href={"https://www.code312.org/"}
