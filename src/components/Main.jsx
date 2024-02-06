@@ -143,7 +143,7 @@ const Main = () => {
 						title={"RockDog Trivia!"}
 						thumb={RDTmain}
 						cap={"A mobile-styled competitive music trivia app"}
-						href={"https://rockdog-trivia.herokuapp.com"}
+						href={"https://rockdogtrivia.web.app/"}
 						thumbAlt={"Screenshot"}
 						cap2={
 							"Meant for mobile devices & features hand-rolled auth and a 3rd party API"

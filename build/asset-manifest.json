@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce8c3cee.css",
-    "main.js": "/static/js/main.9fd1a683.js",
+    "main.css": "/static/css/main.53761fa4.css",
+    "main.js": "/static/js/main.437369b2.js",
+    "static/media/code312.org_.png": "/static/media/code312.org_.ba30630e974b55123258.png",
     "static/media/nico-baum-xZroI5V_dxc-unsplash.jpg": "/static/media/nico-baum-xZroI5V_dxc-unsplash.6fdf51e0de05142fe13a.jpg",
     "static/media/kd_site.png": "/static/media/kd_site.fd3e1cd59b45960776cb.png",
     "static/media/STL1.png": "/static/media/STL1.ebd839b477bb2d544924.png",
@@ -19,11 +20,11 @@
     "static/media/zombie.png": "/static/media/zombie.9e18751d50b7c88bd992.png",
     "static/media/LIInBug.png": "/static/media/LIInBug.ee94644633be244020f6.png",
     "index.html": "/index.html",
-    "main.ce8c3cee.css.map": "/static/css/main.ce8c3cee.css.map",
-    "main.9fd1a683.js.map": "/static/js/main.9fd1a683.js.map"
+    "main.53761fa4.css.map": "/static/css/main.53761fa4.css.map",
+    "main.437369b2.js.map": "/static/js/main.437369b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce8c3cee.css",
-    "static/js/main.9fd1a683.js"
+    "static/css/main.53761fa4.css",
+    "static/js/main.437369b2.js"
   ]
 }
