@@ -5,6 +5,7 @@ import jsAltPic from '../images/Scarpelli-Jon-007.png'
 import pond5 from '../images/lisc_port_pond5.png'
 import HMS from '../images/HMS.png'
 import seabound from '../images/seabound.png'
+import tnbd from '../images/theneighborhood.png'
 import LSspotify from '../images/LSspotify.png'
 import LSsite from '../images/ls_site.png'
 import Stitely from '../images/Stitely.png'
@@ -35,13 +36,13 @@ const AboutMe = () => {
       <h5 className="personal-subtitle">non-software development or software development adjacent work</h5>
       <section className='project-grid'>
         <div className="project">
+          <Project title={'The Nighborhood (COMING SOON!'} thumb={tnbd} cap={"A suspense 'Point-And-Click-Like' Adventure game about a kid who saves his neighborhood and his best friend from an ancient evil"} cap2={"Built in Construct3, Chapter One is due out FALL '24!!! "} thumbAlt={""} git2Check={false} />
+        </div>
+        <div className="project">
           <Project title={'Music Liscensing Portfolio'} thumb={pond5} cap={"Collection of original music compositions available for liscensing through POND5.com"} cap2={""} thumbAlt={"https://www.pond5.com/artist/jscarpelli?tab=music"} git2Check={false} />
         </div>
         <div className="project">
           <Project title={'Seabound (DEMO)'} thumb={seabound} cap={"Demo of 2-D pixel-art video game developed using 'Construct3' game making software, 'Asperite' & javaScript.  Work-in-progress being developed by myself and a partner."} cap2={""} thumbAlt={"https://pixelisfaded.itch.io/seabound"} git2Check={false} />
-        </div>
-        <div className="project">
-          <Project title={'Low Swans'} thumb={LSsite} cap={"Website for my band called Low Swans'.  Designed and administered site."} cap2={""} thumbAlt={"http://low-swans.weebly.com/"} git2Check={false} />
         </div>
         <div className="project">
           <Project title={'Low Swans on Spotify'} thumb={LSspotify} cap={"Original music from my band, 'Low Swans'.  All songs written, programmed & recorded by me except where noted."} cap2={""} thumbAlt={"https://open.spotify.com/artist/0eofl8XS5S9CBbMmAuDsxw"} git2Check={false} />

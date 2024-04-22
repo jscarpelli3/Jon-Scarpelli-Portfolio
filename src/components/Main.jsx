@@ -226,9 +226,9 @@ const Main = () => {
 						href={"https://centurymallet.com/"}
 						thumbAlt={"Screenshot"}
 						cap2={
-							"Leveraged Firebasse server functions to generate customer emails to client without an emailer service."
+							"Leveraged Firebase server functions to generate customer emails to client without an emailer service."
 						}
-						git={"https://github.com/jscarpelli3/zombie-text-adventure"}
+						git={"https://github.com/jscarpelli3/century-bautista"}
 					/>
 				</div>
 			</div>
