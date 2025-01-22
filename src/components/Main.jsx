@@ -143,7 +143,8 @@ const Main = () => {
 						title={"RockDog Trivia!"}
 						thumb={RDTmain}
 						cap={"A mobile-styled competitive music trivia app"}
-						href={"https://rockdogtrivia.web.app/"}
+						// href={"https://rockdogtrivia.web.app/"}
+						href={"#"}
 						thumbAlt={"Screenshot"}
 						cap2={
 							"Meant for mobile devices & features hand-rolled auth and a 3rd party API"
@@ -166,7 +167,7 @@ const Main = () => {
 						git={"https://github.com/jscarpelli3/Jon-Scarpelli_The-Maze-Tower"}
 					/>
 				</div>
-				<div className="project">
+				{/* <div className="project">
 					<Project
 						icons={["react", "postgql", "express", "js", "css", "html"]}
 						expressCk
@@ -184,7 +185,7 @@ const Main = () => {
 						git={"https://github.com/jscarpelli3/Hired"}
 						git2={"https://github.com/jscarpelli3/GitaGig-ServerSide"}
 					/>
-				</div>
+				</div> */}
 				{/* <div className="project">
           <Project
             icons={['react', 'mongo', 'express', 'js', 'css', 'html']}
@@ -198,7 +199,7 @@ const Main = () => {
             git2Check={false}
           />
         </div> */}
-				<div className="project">
+				{/* <div className="project">
 					<Project
 						icons={["python"]}
 						title={"Python Adventure"}
@@ -209,7 +210,7 @@ const Main = () => {
 						cap2={"Text-only & features 8 different endings."}
 						git={"https://github.com/jscarpelli3/zombie-text-adventure"}
 					/>
-				</div>
+				</div> */}
 				<div className="project">
 					<Project
 						icons={["gatsby", "graphql", "js", "css", "html", "firebase"]}

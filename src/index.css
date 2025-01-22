@@ -525,9 +525,6 @@ color: #fa7c30;
   margin: -1.5vh 0;
 }
 
-/* a:hover {
-  opacity: 0.5;
-} */
 
 .project-title {
   font-weight: 200;
@@ -675,4 +672,9 @@ color: #fa7c30;
   100% {
     transform: scale(1);
   }
+}
+
+
+h1 {
+  text-transform: uppercase;
 }

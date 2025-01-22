@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.53761fa4.css",
-    "main.js": "/static/js/main.2607fb46.js",
+    "main.js": "/static/js/main.e505d06c.js",
     "static/media/code312.org_.png": "/static/media/code312.org_.ba30630e974b55123258.png",
     "static/media/nico-baum-xZroI5V_dxc-unsplash.jpg": "/static/media/nico-baum-xZroI5V_dxc-unsplash.6fdf51e0de05142fe13a.jpg",
     "static/media/kd_site.png": "/static/media/kd_site.fd3e1cd59b45960776cb.png",
@@ -10,6 +10,7 @@
     "static/media/hired_site.png": "/static/media/hired_site.e05deabc8c76ec548e5c.png",
     "static/media/LSspotify.png": "/static/media/LSspotify.efb713bf192181fa88e1.png",
     "static/media/lisc_port_pond5.png": "/static/media/lisc_port_pond5.a40406bf8b4a732c140a.png",
+    "static/media/theneighborhood.png": "/static/media/theneighborhood.53b1ba4b198f11684cf6.png",
     "static/media/HMS.png": "/static/media/HMS.87b3ebac037c0f153c4f.png",
     "static/media/Stitely.png": "/static/media/Stitely.5c478a36d2d2185e0746.png",
     "static/media/Scarpelli-Jon-007.png": "/static/media/Scarpelli-Jon-007.d7fae5297bce5e45f1fd.png",
@@ -21,10 +22,10 @@
     "static/media/LIInBug.png": "/static/media/LIInBug.ee94644633be244020f6.png",
     "index.html": "/index.html",
     "main.53761fa4.css.map": "/static/css/main.53761fa4.css.map",
-    "main.2607fb46.js.map": "/static/js/main.2607fb46.js.map"
+    "main.e505d06c.js.map": "/static/js/main.e505d06c.js.map"
   },
   "entrypoints": [
     "static/css/main.53761fa4.css",
-    "static/js/main.2607fb46.js"
+    "static/js/main.e505d06c.js"
   ]
 }
