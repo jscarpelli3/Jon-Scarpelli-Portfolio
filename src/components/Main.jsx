@@ -142,7 +142,7 @@ const Main = () => {
 						icons={["vue", "postgql", "express", "js", "css", "html"]}
 						title={"RockDog Trivia!"}
 						thumb={RDTmain}
-						cap={"A mobile-styled competitive music trivia app"}
+						cap={"***UNDER CONSTRUCTION! A mobile-styled competitive music trivia app"}
 						// href={"https://rockdogtrivia.web.app/"}
 						href={"#"}
 						thumbAlt={"Screenshot"}
